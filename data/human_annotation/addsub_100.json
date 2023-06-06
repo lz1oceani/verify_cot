@@ -1,0 +1,815 @@
+[
+    {
+        "question": "A restaurant served 5 cakes during lunch and 6 during dinner today . The restaurant served 3 cakes yesterday . How many cakes were served in total ?",
+        "answer": "#1. The restaurant served 5 cakes during lunch today.\n#2. The restaurant served 6 cakes during dinner today.\n#3. The restaurant served 3 cakes yesterday.\n#4. How many cakes were served in total?\n\n#5. (by #1 #2 #3) Step 1: Add up the number of cakes served during lunch, dinner, and yesterday.\nTotal cakes served: 5 + 6 + 3 = 14\n\n#6. (by #4 #5) The original question is #4. How many cakes were served in total? We do not miss information on the rewritten labels. So the answer to this question is the restaurant served 14 cakes in total.",
+        "final_answer": "14",
+        "gt_answer": "X = 5 + 6 + 3",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "While making pastries , a bakery used 0.2 bag of wheat flour and 0.1 bag of white flour . How many bags of flour did the bakery use in all ?",
+        "answer": "#1. The bakery used 0.2 bag of wheat flour and 0.1 bag of white flour.\n#2. The question asks for the total amount of flour the bakery used.\n\n#3. (by #1) Step 1: Add the amount of wheat flour and white flour used.\nTotal amount of flour used: 0.2 + 0.1 = 0.3\n\n#4. (by #2 #3) Step 2: The total amount of flour the bakery used is 0.3 bags.\n\nTherefore, the answer to the question is the bakery used 0.3 bags of flour in all.",
+        "final_answer": "0.3",
+        "gt_answer": "X = 0.2 + 0.1",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Sally had 13 peaches at her roadside fruit dish . She went to the orchard and picked peaches to stock up . There are now 55 peaches . how many did she pick ?",
+        "answer": "#1. Sally had 13 peaches at her roadside fruit dish.\n#2. Sally went to the orchard and picked peaches to stock up.\n#3. There are now 55 peaches.\n#4. How many peaches did Sally pick?\n\n#5. (by #1 #3) Step 1: Calculate the number of peaches Sally picked at the orchard.\nNumber of peaches Sally picked: 55 - 13 = 42\n\n#6. (by #4 #5) The original question is #4. How many peaches did Sally pick? We do not miss information on the rewritten labels. So the answer to this question is Sally picked 42 peaches.",
+        "final_answer": "42",
+        "gt_answer": "13 + X = 55",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Keith spent $ 136.01 on speakers , $ 139.38 on a CD player , and $ 112.46 on new tires . He wanted 3 CD 's for $ 6.16 , but did n't buy them . In total , how much did he spend ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Keith spent $136.01 on speakers.\n#2. Keith spent $139.38 on a CD player.\n#3. Keith spent $112.46 on new tires.\n#4. Keith wanted to buy 3 CDs for $6.16, but he didn't buy them.\n#5. The total amount Keith spent is unknown.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#6. (by #1 #2 #3) Step 1: Add up the amounts Keith spent on speakers, CD player, and tires.\nTotal amount Keith spent: $136.01 + $139.38 + $112.46 = $387.85\n\n#7. (by #4) Step 2: Calculate the amount Keith would have spent if he had bought the 3 CDs.\nCost of 3 CDs: $6.16\nAmount Keith would have spent on 3 CDs: $6.16\n\n#8. (by #6 #7) Step 3: Calculate the total amount Keith spent, including the CDs he didn't buy.\nTotal amount Keith spent: $387.85 + $6.16 = $394.01\n\n#9. (by #5 #8) The original question is #5. In total, how much did Keith spend? We do not miss information on the rewritten labels. So the answer to this question is Keith spent $394.01.",
+        "final_answer": "387.85",
+        "gt_answer": "X = 136.01 + 139.38 + 112.46",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Joan picked 43 apples from the orchard , and gave 27 apples to Melanie . How many apples does Joan have now ?",
+        "answer": "#1. Joan picked 43 apples from the orchard.\n#2. Joan gave 27 apples to Melanie.\n#3. How many apples does Joan have now?\n\n#4. (by #1 #2) Step 1: Calculate the number of apples Joan has left.\nJoan's original number of apples: 43\nApples given to Melanie: 27\nApples Joan has left: 43 - 27 = 16\n\n#5. (by #3 #4) The original question is #3. How many apples does Joan have now? We do not miss information on the rewritten labels. So the answer to this question is Joan has 16 apples now.",
+        "final_answer": "16",
+        "gt_answer": "X = 43 - 27",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Dan joined his school 's band . He bought a clarinet for $ 130.30 , and a song book which was $ 11.24 . Dan found $ 12.32 in his pocket . How much did Dan spend at the music store ?",
+        "answer": "#1. Dan bought a clarinet for $130.30 and a song book for $11.24.\n#2. Dan found $12.32 in his pocket.\n#3. The question is asking for how much Dan spent at the music store.\n\n#4. (by #1 #2 #3) To answer the question, we need to add up the cost of the clarinet, the song book, and subtract the amount Dan found in his pocket.\nTotal cost of clarinet and song book: $130.30 + $11.24 = $141.54\nAmount Dan found in his pocket: $12.32\nTotal amount Dan spent at the music store: $141.54 - $12.32 = $129.22\n\n#5. (by #4) The answer is Dan spent $129.22 at the music store.",
+        "final_answer": "141.54",
+        "gt_answer": "X = 130.30 + 11.24",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Mike has 87 baseball cards . Sam bought 13 of Mike 's baseball cards . How many baseball cards does Mike have now ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Mike has 87 baseball cards.\n#2. Sam bought 13 of Mike's baseball cards.\n#3. How many baseball cards does Mike have now?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1 #2) Step 1: Calculate how many baseball cards Mike has after Sam bought 13 of them.\nMike's original number of baseball cards: 87\nNumber of baseball cards Sam bought: 13\nMike's new number of baseball cards: 87 - 13 = 74\n\n#5. (by #3 #4) The original question is #3. How many baseball cards does Mike have now? We do not miss information on the rewritten labels. So the answer to this question is Mike has 74 baseball cards now.",
+        "final_answer": "74",
+        "gt_answer": "X = 87 - 13",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "There were 32 bales of hay in the barn and 26 bales in the shed . Jason stacked bales in the barn today . There are now 98 bales of hay in the barn . How many bales did he store in the barn ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. There were 32 bales of hay in the barn.\n#2. There were 26 bales of hay in the shed.\n#3. Jason stacked bales in the barn today.\n#4. There are now 98 bales of hay in the barn.\n#5. How many bales did Jason store in the barn?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#6. (by #4 #1) Step 1: Calculate how many bales Jason stacked in the barn.\nNumber of bales in the barn before Jason stacked: 32\nNumber of bales in the barn after Jason stacked: 98\nNumber of bales Jason stacked: 98 - 32 = 66\n\n#7. (by #5 #6) The original question is #5. How many bales did Jason store in the barn? We do not miss information on the rewritten labels. So the answer to this question is Jason stored 66 bales in the barn.",
+        "final_answer": "66",
+        "gt_answer": "32 + X = 98",
+        "correct": true,
+        "verify_correct": true,
+        "flag": 1
+    },
+    {
+        "question": "There were 9 red orchids and 3 white orchids in the vase . Sally cut some red orchids from her flower garden . There are now 15 red orchids in the vase . How many red orchids did she cut ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. There were 9 red orchids and 3 white orchids in the vase.\n#2. Sally cut some red orchids from her flower garden.\n#3. There are now 15 red orchids in the vase.\n#4. How many red orchids did Sally cut?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #3) Step 1: Calculate the original number of red orchids in the vase.\nOriginal number of red orchids: 9\n\n#6. (by #2 #3) Step 2: Calculate the current number of red orchids in the vase after Sally's cut.\nCurrent number of red orchids: 15\n\n#7. (by #5 #6) Step 3: Calculate how many red orchids Sally cut.\nNumber of red orchids Sally cut: Current number of red orchids - Original number of red orchids = 15 - 9 = 6\n\n#8. (by #4 #7) The original question is #4. How many red orchids did Sally cut? We do not miss information on the rewritten labels. So the answer to this question is Sally cut 6 red orchids.",
+        "final_answer": "6",
+        "gt_answer": "9 + X = 15",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Jason has 18 books and he has read 9 of them . Mary has 42 books . How many books do they have together ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jason has 18 books.\n#2. Jason has read 9 of his books.\n#3. Mary has 42 books.\n#4. How many books do Jason and Mary have together?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the number of books Jason has that he has not read.\nNumber of books Jason has that he has not read: 18 - 9 = 9\n\n#6. (by #3) Step 2: Add the number of books Mary has to the number of books Jason has that he has not read.\nTotal number of books Jason and Mary have together: 9 + 42 = 51\n\n#7. (by #4 #6) The original question is #4. How many books do Jason and Mary have together? We do not miss information on the rewritten labels. So the answer to this question is Jason and Mary have 51 books together.",
+        "final_answer": "60",
+        "gt_answer": "X = 18 + 42",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Joan joined her school 's band . She bought a trumpet for $ 149.16 , a music tool for $ 9.98 , and a song book which was $ 4.14 . Joan found $ 8.65 in her pocket . How much did Joan spend at the music store ?",
+        "answer": "#1. Joan bought a trumpet for $149.16, a music tool for $9.98, and a songbook which was $4.14.\n#2. Joan found $8.65 in her pocket.\n#3. How much did Joan spend at the music store?\n\n#4. (by #1) Step 1: Add up the cost of all the items Joan bought.\nCost of trumpet: $149.16\nCost of music tool: $9.98\nCost of songbook: $4.14\nTotal cost of all items: $149.16 + $9.98 + $4.14 = $163.28\n\n#5. (by #2) Step 2: Subtract the amount of money Joan found in her pocket from the total cost of all the items.\nAmount Joan found in her pocket: $8.65\nTotal cost of all items: $163.28\nAmount Joan spent at the music store: $163.28 - $8.65 = $154.63\n\n#6. (by #3 #5) The original question is #3. How much did Joan spend at the music store? We do not miss information on the rewritten labels. So the answer to this question is Joan spent $154.63 at the music store.",
+        "final_answer": "163.28",
+        "gt_answer": "X = 149.16 + 9.98 + 4.14",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "There are 7 crayons in the drawer and 6 crayons on the desk . Sam placed 4 crayons and 8 scissors on the desk . How many crayons are now there in total ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. There are 7 crayons in the drawer.\n#2. There are 6 crayons on the desk.\n#3. Sam placed 4 crayons and 8 scissors on the desk.\n#4. How many crayons are now there in total?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the total number of crayons before Sam placed any on the desk.\nTotal crayons before: 7 + 6 = 13\n\n#6. (by #3) Step 2: Calculate the number of crayons Sam added to the desk.\nCrayons Sam added: 4\n\n#7. (by #5 #6) Step 3: Calculate the total number of crayons on the desk after Sam placed 4 crayons on it.\nTotal crayons on desk: 6 + 4 = 10\n\n#8. (by #7) Step 4: Calculate the total number of crayons now.\nTotal crayons now: 10\n\n#9. (by #4 #8) The original question is #4. How many crayons are now there in total? We do not miss information on the rewritten labels. So the answer to this question is there are 10 crayons now in total.",
+        "final_answer": "17",
+        "gt_answer": "X = 7 + 6 + 4",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Sally grew 113 turnips and 118 pumpkins . Mary grew 129 turnips . How many turnips did they grow in total ?",
+        "answer": "#1. Sally grew 113 turnips and 118 pumpkins. \n#2. Mary grew 129 turnips. \n#3. The question asks for the total number of turnips grown by both Sally and Mary. \n#4. How many turnips did they grow in total?\n\n#5. (by #1) Step 1: Find the total number of turnips grown by Sally.\nTotal turnips grown by Sally: 113\n\n#6. (by #2) Step 2: Find the total number of turnips grown by Mary.\nTotal turnips grown by Mary: 129\n\n#7. (by #5 #6) Step 3: Add the total number of turnips grown by Sally and Mary to find the total number of turnips grown.\nTotal turnips grown: 113 + 129 = 242\n\n#8. (by #4 #7) The original question is #4. How many turnips did they grow in total? We do not miss information on the rewritten labels. So the answer to this question is Sally and Mary grew a total of 242 turnips.",
+        "final_answer": "242",
+        "gt_answer": "X = 113 + 129",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Joan had 695 Pokemon cards , and 6 were torn . Sara bought 133 of Joan 's Pokemon cards . How many Pokemon cards does Joan have now ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Joan had 695 Pokemon cards.\n#2. 6 of Joan's Pokemon cards were torn.\n#3. Sara bought 133 of Joan's Pokemon cards.\n#4. How many Pokemon cards does Joan have now?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate how many Pokemon cards Joan had that were not torn.\nTotal Pokemon cards: 695\nTorn Pokemon cards: 6\nPokemon cards that were not torn: 695 - 6 = 689\n\n#6. (by #3) Step 2: Calculate how many Pokemon cards Joan has after selling 133 to Sara.\nPokemon cards that Joan sold to Sara: 133\nPokemon cards that Joan has left: 689 - 133 = 556\n\n#7. (by #4 #6) The original question is #4. How many Pokemon cards does Joan have now? We do not miss information on the rewritten labels. So the answer to this question is Joan has 556 Pokemon cards now.",
+        "final_answer": "562",
+        "gt_answer": "X = 695 - 133",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Fred went to 36 basketball games this year , but missed 35 . He went to 11 games last year . How many basketball games did Fred go to in total ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Fred went to 36 basketball games this year.\n#2. Fred missed 35 basketball games this year.\n#3. Fred went to 11 basketball games last year.\n#4. How many basketball games did Fred go to in total?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the total number of basketball games Fred was supposed to attend this year.\nTotal number of basketball games this year: 36 + 35 = 71\n\n#6. (by #5 #3) Step 2: Calculate the total number of basketball games Fred attended in the past 2 years.\nTotal number of basketball games attended: 71 + 11 = 82\n\n#7. (by #4 #6) The original question is #4. How many basketball games did Fred go to in total? We do not miss information on the rewritten labels. So the answer to this question is Fred went to 82 basketball games in total.",
+        "final_answer": "47",
+        "gt_answer": "X = 36 + 11",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Fred went to 36 basketball games this year , but missed 35 . He went to 11 games last year . How many basketball games did Fred go to in total ?",
+        "answer": "#1. Fred went to 36 basketball games this year.\n#2. Fred missed 35 basketball games this year.\n#3. Fred went to 11 basketball games last year.\n#4. How many basketball games did Fred go to in total?\n\n#5. (by #1 #2) Step 1: Calculate the number of basketball games Fred attended this year.\nNumber of basketball games Fred attended this year: 36 - 35 = 1\n\n#6. (by #5 #3) Step 2: Calculate the total number of basketball games Fred attended.\nTotal number of basketball games Fred attended: 1 + 11 = 12\n\n#7. (by #4 #6) The original question is #4. How many basketball games did Fred go to in total? We do not miss information on the rewritten labels. So the answer to this question is Fred went to 12 basketball games in total.",
+        "final_answer": "47",
+        "gt_answer": "X = 36 + 11",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Mike joined his school 's band . He bought a trumpet for $ 145.16 , and a song book which was $ 5.84 . How much did Mike spend at the music store ?",
+        "answer": "#1. Mike bought a trumpet for $145.16.\n#2. Mike bought a song book for $5.84.\n#3. The question asks for the total amount Mike spent at the music store.\n\n#4. (by #1 #2 #3) To find the total amount Mike spent at the music store, we add the cost of the trumpet and the song book together.\nTotal cost = $145.16 + $5.84 = $151\n\n#5. (by #4) Therefore, Mike spent $151 at the music store.",
+        "final_answer": "151",
+        "gt_answer": "X = 145.16 + 5.84",
+        "correct": true,
+        "verify_correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Alyssa bought some toys . She bought a football for $ 5.71 , and spent $ 6.59 on marbles . In total , how much did Alyssa spend on toys ?",
+        "answer": "#1. Alyssa bought a football for $5.71 and spent $6.59 on marbles.\n#2. The question asks for the total amount Alyssa spent on toys.\n\n#3. (by #1) Step 1: Add the cost of the football and the marbles.\nTotal cost of toys: $5.71 + $6.59 = $12.30\n\n#4. (by #2 #3) The original question is #2. How much did Alyssa spend on toys? Using the information from #3, Alyssa spent $12.30 on toys.",
+        "final_answer": "12.3",
+        "gt_answer": "X = 5.71 + 6.59",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Sally grew 113 turnips and 118 pumpkins . Mary grew 129 turnips . How many turnips did they grow in total ?",
+        "answer": "#1. Sally grew 113 turnips and 118 pumpkins. \n#2. Mary grew 129 turnips. \n#3. Find the total number of turnips Sally and Mary grew. \n\n#4. (by #1 #2) Step 1: Add up the number of turnips Sally grew and the number of turnips Mary grew. \nTotal number of turnips: 113 + 129 = 242\n\n#5. (by #3 #4) The original question is #3. How many turnips did they grow in total? We do not miss information on the rewritten labels. So the answer to this question is Sally and Mary grew a total of 242 turnips.",
+        "final_answer": "242",
+        "gt_answer": "X = 113 + 129",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "There are 107 walnut trees currently in the park . Park workers will plant 104 walnut trees today . How many walnut trees will the park have when the workers are finished ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. There are currently 107 walnut trees in the park.\n#2. Park workers will plant 104 walnut trees today.\n#3. The question asks how many walnut trees the park will have when the workers are finished.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1 #2) Step 1: Calculate the total number of walnut trees in the park after the workers plant the new trees.\nTotal number of walnut trees: 107 + 104 = 211\n\n#5. (by #3 #4) The original question is #3. How many walnut trees will the park have when the workers are finished? We do not miss information on the rewritten labels. So the answer to this question is the park will have 211 walnut trees when the workers are finished.",
+        "final_answer": "211",
+        "gt_answer": "X = 107 + 104",
+        "correct": true,
+        "flag": 0
+    },
+    {
+        "question": "There are 31 short trees and 32 tall trees currently in the park . Park workers will plant short trees today . When the workers are finished there will be 95 short trees in the park . How many short trees did the workers plant today ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. There are 31 short trees and 32 tall trees currently in the park.\n#2. Park workers will plant short trees today.\n#3. After the workers are finished, there will be 95 short trees in the park.\n#4. How many short trees did the workers plant today?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #3 #1) Step 1: Calculate the number of short trees that need to be planted.\nNumber of short trees after planting: 95\nNumber of short trees before planting: 31\nNumber of tall trees: 32\nNumber of short trees that need to be planted: 95 - 31 = 64\n\n#6. (by #2 #5) Step 2: Calculate the number of short trees planted by the workers.\nNumber of short trees planted by the workers: 64\n\n#7. (by #4 #6) The original question is #4. How many short trees did the workers plant today? We do not miss information on the rewritten labels. So the answer to this question is the workers planted 64 short trees today.",
+        "final_answer": "64",
+        "gt_answer": "31 + X = 95",
+        "correct": true,
+        "verify_correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Fred has 40 baseball cards . Keith bought 22 of Fred 's baseball cards . How many baseball cards does Fred have now ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Fred has 40 baseball cards.\n#2. Keith bought 22 of Fred's baseball cards.\n#3. How many baseball cards does Fred have now?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1 #2) Step 1: Calculate the number of baseball cards Fred has after Keith bought 22 of them.\nNumber of baseball cards Fred had: 40\nNumber of baseball cards Keith bought: 22\nNumber of baseball cards Fred has now: 40 - 22 = 18\n\n#5. (by #3 #4) The original question is #3. How many baseball cards does Fred have now? We do not miss information on the rewritten labels. So the answer to this question is Fred has 18 baseball cards now.",
+        "final_answer": "18",
+        "gt_answer": "X = 40 - 22",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Dan joined his school 's band . He bought a clarinet for $ 130.30 , and a song book which was $ 11.24 . Dan found $ 12.32 in his pocket . How much did Dan spend at the music store ?",
+        "answer": "#1. Dan bought a clarinet for $130.30.\n#2. Dan also bought a song book for $11.24.\n#3. Dan found $12.32 in his pocket.\n#4. How much did Dan spend at the music store?\n\n#5. (by #1 #2) Step 1: Add the cost of the clarinet and the song book.\nCost of clarinet: $130.30\nCost of song book: $11.24\nTotal cost of clarinet and song book: $130.30 + $11.24 = $141.54\n\n#6. (by #3) Step 2: Subtract the amount of money Dan found in his pocket from the total cost.\nAmount of money Dan found in his pocket: $12.32\nTotal cost of clarinet and song book: $141.54\nTotal amount Dan spent: $141.54 - $12.32 = $129.22\n\n#7. (by #4 #6) The original question is #4. How much did Dan spend at the music store? We do not miss information on the rewritten labels. So the answer to this question is Dan spent $129.22 at the music store.",
+        "final_answer": "141.54",
+        "gt_answer": "X = 130.30 + 11.24",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Dan spent $ 11.76 on a snake toy , and a cage cost him $ 14.54 . Dan also found a dollar bill on the ground . What was the total cost of Dan 's purchases ?",
+        "answer": "#1. Dan buys a snake toy and a cage.\n#2. The snake toy costs $11.76.\n#3. The cage costs $14.54.\n#4. Dan finds a dollar bill on the ground.\n#5. (by #2) Step 1: Dan's cost for the snake toy is $11.76.\n#6. (by #3) Step 2: Dan's cost for the cage is $14.54.\n#7. (by #4) Step 3: Dan finds $1 on the ground.\n#8. (by #5 #6 #7) Step 4: Calculate the total cost of Dan's purchases.\nTotal cost = $11.76 + $14.54 - $1 = $25.30\n#9. (by #4 #8) The original question is \"What was the total cost of Dan's purchases?\" The answer is $25.30.",
+        "final_answer": "26.3",
+        "gt_answer": "X = 11.76 + 14.54",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Mike went to 15 basketball games this year , but missed 41 . He went to 39 games last year . How many basketball games did Mike go to in total ?",
+        "answer": "#1. Mike went to 15 basketball games this year.\n#2. Mike missed 41 basketball games this year.\n#3. Mike went to 39 basketball games last year.\n#4. How many basketball games did Mike go to in total?\n\n#5. (by #1 #2) Step 1: Calculate the total number of basketball games this year.\nTotal basketball games this year: 15 + 41 = 56\n\n#6. (by #3 #5) Step 2: Calculate the total number of basketball games Mike went to.\nTotal basketball games Mike went to: 56 + 39 = 95\n\n#7. (by #4 #6) The original question is #4. How many basketball games did Mike go to in total? We do not miss information on the rewritten labels. So the answer to this question is Mike went to 95 basketball games in total.",
+        "final_answer": "54",
+        "gt_answer": "X = 15 + 39",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "A carpenter bought a piece of wood that was 8.9 centimeters long . Then he sawed 2.3 centimeters off the end . How long is the piece of wood now ?",
+        "answer": "#1. The carpenter bought a piece of wood that was 8.9 centimeters long.\n#2. The carpenter sawed 2.3 centimeters off the end.\n#3. The question asks for the new length of the piece of wood.\n\n#4. (by #1 #2 #3) What is the new length of the piece of wood?\n\n#5. (by #2) Step 1: Subtract the length sawed off from the original length.\nNew length of wood: 8.9 cm - 2.3 cm = 6.6 cm\n\n#6. (by #3 #5) The answer to the question is the new length of the piece of wood, which is 6.6 centimeters. \n\nTherefore, the carpenter's piece of wood is now 6.6 centimeters long.",
+        "final_answer": "6.6",
+        "gt_answer": "X = 8.9 - 2.3",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "A restaurant served 7 slices of pie during lunch and 5 during dinner today . It served 8 of them yesterday . How many slices of pie were served today ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. The restaurant served 7 slices of pie during lunch today.\n#2. The restaurant served 5 slices of pie during dinner today.\n#3. The restaurant served 8 slices of pie yesterday.\n#4. How many slices of pie were served today?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the total slices of pie served today.\nSlices of pie served during lunch: 7\nSlices of pie served during dinner: 5\nTotal slices of pie served today: 7 + 5 = 12\n\n#6. (by #3) Step 2: Add the slices of pie served yesterday to the total.\nSlices of pie served yesterday: 8\nTotal slices of pie served: 12 + 8 = 20\n\n#7. (by #4 #6) The original question is #4. How many slices of pie were served today? We do not miss information on the rewritten labels. So the answer to this question is 20.",
+        "final_answer": "12",
+        "gt_answer": "X = 7 + 5",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Tom went to 4 hockey games this year , but missed 7 . He went to 9 games last year . How many hockey games did Tom go to in all ?",
+        "answer": "#1. Tom went to 4 hockey games this year, but missed 7.\n#2. Tom went to 9 games last year.\n#3. How many hockey games did Tom go to in all?\n\n#4. (by #1 #2) Step 1: Calculate the total number of hockey games Tom attended this year.\nTotal games attended this year: 4\nGames missed this year: 7\nTotal games scheduled this year: 4 + 7 = 11\n\n#5. (by #4 #2) Step 2: Calculate the total number of hockey games Tom attended in both years.\nTotal games attended in both years: 9 + 11 = 20\n\n#6. (by #3 #5) The original question is #3. How many hockey games did Tom go to in all? We do not miss information on the rewritten labels. So the answer to this question is Tom went to 20 hockey games in all.",
+        "final_answer": "13",
+        "gt_answer": "X = 4 + 9",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Fred went to 36 basketball games this year , but missed 35 . He went to 11 games last year . How many basketball games did Fred go to in total ?",
+        "answer": "#1. Fred went to 36 basketball games this year.\n#2. Fred missed 35 basketball games this year.\n#3. Fred went to 11 basketball games last year.\n#4. How many basketball games did Fred go to in total?\n\n#5. (by #1 #2) Step 1: Calculate the number of basketball games Fred attended this year.\nNumber of basketball games attended: 36 - 35 = 1\n\n#6. (by #5 #3) Step 2: Calculate the total number of basketball games Fred attended.\nTotal number of basketball games attended: 1 + 11 = 12\n\n#7. (by #4 #6) The original question is #4. How many basketball games did Fred go to in total? We do not miss information on the rewritten labels. So the answer to this question is Fred went to 12 basketball games in total.",
+        "final_answer": "47",
+        "gt_answer": "X = 36 + 11",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Mike went to 15 basketball games this year , but missed 41 . He went to 39 games last year . How many basketball games did Mike go to in total ?",
+        "answer": "#1. Mike went to 15 basketball games this year.\n#2. Mike missed 41 basketball games this year.\n#3. Mike went to 39 basketball games last year.\n#4. How many basketball games did Mike go to in total?\n\n#5. (by #1 #2) Step 1: Calculate the number of basketball games Mike attended this year.\nTotal number of basketball games this year: 15 + 41 = 56\n\n#6. (by #3) Step 2: Add the number of basketball games Mike attended last year.\nTotal number of basketball games: 56 + 39 = 95\n\n#7. (by #4 #6) The original question is #4. How many basketball games did Mike go to in total? We do not miss information on the rewritten labels. So the answer to this question is Mike went to 95 basketball games in total.",
+        "final_answer": "54",
+        "gt_answer": "X = 15 + 39",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Sally found 9 seashells , Tom found 7 seashells , and Jessica found 5 seashells on the beach . How many seashells did they find together ?",
+        "answer": "#1. Sally found 9 seashells, Tom found 7 seashells, and Jessica found 5 seashells on the beach.\n#2. The question is asking how many seashells they found together.\n\n#3. (by #1) Step 1: Add up the number of seashells each person found.\nTotal number of seashells: 9 + 7 + 5 = 21\n\n#4. (by #2 #3) The original question is asking for the total number of seashells they found together. So the answer to this question is they found 21 seashells together.",
+        "final_answer": "21",
+        "gt_answer": "X = 9 + 7 + 5",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Mary had 18 baseball cards , and 8 were torn . Fred gave Mary 26 new baseball cards . Mary bought 40 baseball cards . How many baseball cards does Mary have now ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Mary had 18 baseball cards.\n#2. 8 of Mary's baseball cards were torn.\n#3. Fred gave Mary 26 new baseball cards.\n#4. Mary bought 40 baseball cards.\n#5. How many baseball cards does Mary have now?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#6. (by #1 #2) Step 1: Calculate how many baseball cards Mary had that were not torn.\nTotal baseball cards: 18\nTorn baseball cards: 8\nNot torn baseball cards: 18 - 8 = 10\n\n#7. (by #6 #3) Step 2: Calculate how many baseball cards Mary has after receiving Fred's gift.\nNew baseball cards from Fred: 26\nTotal baseball cards after receiving Fred's gift: 10 + 26 = 36\n\n#8. (by #7 #4) Step 3: Calculate how many baseball cards Mary has after buying more cards.\nNew baseball cards bought: 40\nTotal baseball cards after buying more cards: 36 + 40 = 76\n\n#9. (by #5 #8) The original question is #5. How many baseball cards does Mary have now? We do not miss information on the rewritten labels. So the answer to this question is Mary has 76 baseball cards now.",
+        "final_answer": "84",
+        "gt_answer": "X = 18 + 26 + 40",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Mary had 18 baseball cards , and 8 were torn . Fred gave Mary 26 new baseball cards . Mary bought 40 baseball cards . How many baseball cards does Mary have now ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Mary had 18 baseball cards.\n#2. 8 of Mary's baseball cards were torn.\n#3. Fred gave Mary 26 new baseball cards.\n#4. Mary bought 40 baseball cards.\n#5. How many baseball cards does Mary have now?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#6. (by #1 #2) Step 1: Calculate how many un-torn baseball cards Mary had.\nNumber of un-torn baseball cards: 18 - 8 = 10\n\n#7. (by #3 #6) Step 2: Calculate how many baseball cards Mary had after Fred gave her new ones.\nTotal number of baseball cards after Fred gave Mary new ones: 10 + 26 = 36\n\n#8. (by #4 #7) Step 3: Calculate how many baseball cards Mary had after she bought 40 more.\nTotal number of baseball cards after Mary bought 40 more: 36 + 40 = 76\n\n#9. (by #5 #8) The original question is #5. How many baseball cards does Mary have now? We do not miss information on the rewritten labels. So the answer to this question is Mary has 76 baseball cards now.",
+        "final_answer": "84",
+        "gt_answer": "X = 18 + 26 + 40",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Fred went to 36 basketball games this year , but missed 35 . He went to 11 games last year . How many basketball games did Fred go to in total ?",
+        "answer": "#1. Fred went to 36 basketball games this year.\n#2. Fred missed 35 basketball games this year.\n#3. Fred went to 11 basketball games last year.\n#4. How many basketball games did Fred go to in total?\n\n#5. (by #1 #2) Step 1: Calculate the total number of basketball games Fred could have gone to this year.\nTotal possible games this year: 36 + 35 = 71\n\n#6. (by #5 #3) Step 2: Calculate the total number of basketball games Fred went to in the last two years.\nTotal games in last two years: 71 + 11 = 82\n\n#7. (by #4 #6) The original question is #4. How many basketball games did Fred go to in total? We do not miss information on the rewritten labels. So the answer to this question is Fred went to 82 basketball games in total.",
+        "final_answer": "47",
+        "gt_answer": "X = 36 + 11",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "During a canned food drive , items were sorted into bins . The drive resulted in 0.125 bin of soup , 0.125 bin of vegetables , and 0.5 bin of pasta . Altogether , how many bins would the canned food take up ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. The canned food drive resulted in 0.125 bin of soup, 0.125 bin of vegetables, and 0.5 bin of pasta.\n#2. The question asks for the total number of bins the canned food would take up.\n \nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#3. (by #1) Step 1: Add up the fractions of bins for each type of canned food.\nTotal bins of canned food = 0.125 + 0.125 + 0.5 = 0.75\n\n#4. (by #2 #3) Step 2: The question asks for the total number of bins the canned food would take up. Therefore, the answer is the total number of bins, which is 0.75.\n\n#5. (by #4) The original question is #2. Altogether, how many bins would the canned food take up? The answer is 0.75 bins.",
+        "final_answer": "0.75",
+        "gt_answer": "X = 0.125 + 0.125 + 0.5",
+        "correct": true,
+        "flag": 0
+    },
+    {
+        "question": "Fred picked 36 limes , Alyssa picked 32 limes , and Nancy picked 35 limes and 18 pears , at the farm . How many limes were picked in total ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Fred picked 36 limes.\n#2. Alyssa picked 32 limes.\n#3. Nancy picked 35 limes and 18 pears.\n#4. How many limes were picked in total?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2 #3) Step 1: Add the number of limes picked by each person.\nNumber of limes picked by Fred: 36\nNumber of limes picked by Alyssa: 32\nNumber of limes picked by Nancy: 35\nTotal number of limes picked: 36 + 32 + 35 = 103\n\n#6. (by #4 #5) The original question is #4. How many limes were picked in total? We do not miss information on the rewritten labels. So the answer to this question is a total of 103 limes were picked.",
+        "final_answer": "103",
+        "gt_answer": "X = 36 + 32 + 35",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Suzie found 2 worms in the yard and measured them with a ruler . 1 worm was 0.8 inch long . The other worm was 0.1 inch long . How much longer was the longer worm ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Suzie found 2 worms.\n#2. Suzie measured the worms with a ruler.\n#3. One worm was 0.8 inches long.\n#4. The other worm was 0.1 inches long.\n#5. How much longer was the longer worm?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#6. (by #3 #4) Step 1: Identify which worm is longer.\nThe longer worm is the one that was 0.8 inches long.\n\n#7. (by #3 #4) Step 2: Identify the length difference between the two worms.\nLength difference between the two worms: 0.8 inches - 0.1 inches = 0.7 inches.\n\n#8. (by #5 #7) The original question is #5. How much longer was the longer worm? We do not miss information on the rewritten labels. So the answer to this question is the longer worm was 0.7 inches longer.",
+        "final_answer": "0.7",
+        "gt_answer": "X = 0.8 - 0.1",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Mike joined his school 's band . He bought a trumpet for $ 145.16 , and a song book which was $ 5.84 . How much did Mike spend at the music store ?",
+        "answer": "#1. Mike bought a trumpet and a song book.\n#2. The trumpet costs $145.16.\n#3. The song book costs $5.84.\n#4. How much did Mike spend at the music store?\n\n#5. (by #2 #3) Step 1: Calculate the total cost of the trumpet and the song book.\nTotal cost: $145.16 + $5.84 = $151\n\n#6. (by #4 #5) The original question is #4. How much did Mike spend at the music store? We do not miss information on the rewritten labels. So the answer to this question is Mike spent $151 at the music store.",
+        "final_answer": "151",
+        "gt_answer": "X = 145.16 + 5.84",
+        "correct": true,
+        "verify_correct": true,
+        "flag": 1
+    },
+    {
+        "question": "There are 7 crayons in the drawer and 6 crayons on the desk . Sam placed 4 crayons and 8 scissors on the desk . How many crayons are now there in total ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. There are 7 crayons in the drawer.\n#2. There are 6 crayons on the desk.\n#3. Sam placed 4 crayons and 8 scissors on the desk.\n#4. How many crayons are now there in total?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #2 #3) Step 1: Calculate the total number of crayons on the desk after Sam placed them.\nOriginal crayons on the desk: 6\nCrayons Sam placed: 4\nTotal crayons on the desk after Sam placed them: 6 + 4 = 10\n\n#6. (by #1 #5) Step 2: Calculate the total number of crayons.\nCrayons in the drawer: 7\nCrayons on the desk after Sam placed them: 10\nTotal number of crayons: 7 + 10 = 17\n\n#7. (by #4 #6) The original question is #4. How many crayons are now there in total? We do not miss information on the rewritten labels. So the answer to this question is there are now 17 crayons in total.",
+        "final_answer": "17",
+        "gt_answer": "X = 7 + 6 + 4",
+        "correct": true,
+        "verify_correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Melanie had 10 quarters and 17 pennies in her bank . Her dad gave her 27 pennies and her mother gave her 19 pennies . How many pennies does Melanie have now ?",
+        "answer": "#1. Melanie had 10 quarters and 17 pennies in her bank.\n#2. Melanie's dad gave her 27 pennies, and her mother gave her 19 pennies.\n#3. We need to find out how many pennies Melanie has now.\n\n#4. (by #1) Step 1: Calculate the total amount of pennies Melanie had originally.\nNumber of pennies in 10 quarters: 10 quarters * 25 cents per quarter = 250 cents\nNumber of pennies in 17 pennies: 17 pennies = 17 cents\nTotal number of pennies Melanie had originally: 250 cents + 17 cents = 267 cents\n\n#5. (by #2) Step 2: Calculate the total amount of pennies Melanie received from her dad and mom.\nNumber of pennies from dad: 27 pennies = 27 cents\nNumber of pennies from mom: 19 pennies = 19 cents\nTotal number of pennies Melanie received: 27 cents + 19 cents = 46 cents\n\n#6. (by #4 #5) Step 3: Calculate the total number of pennies Melanie has now.\nTotal number of pennies Melanie has now: 267 cents + 46 cents = 313 cents\n\n#7. (by #3 #6) The original question is #3. How many pennies does Melanie have now? We do not miss information on the rewritten labels. So the answer to this question is Melanie has 313 pennies now.",
+        "final_answer": "63",
+        "gt_answer": "X = 17 + 27 + 19",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Sally paid $ 12.32 total for peaches , after a 3 dollar coupon , and $ 11.54 for cherries . In total , how much money did Sally spend ?",
+        "answer": "#1. Sally paid $12.32 for peaches after a $3 coupon, and $11.54 for cherries.\n#2. Sally wants to know how much money she spent in total.\n\n#3. (by #1) Step 1: Calculate the original price of peaches before the coupon was applied.\nOriginal price of peaches: $12.32 + $3 = $15.32\n\n#4. (by #3) Step 2: Calculate the total amount Sally spent on peaches.\nTotal amount spent on peaches: $15.32\n\n#5. (by #1) Step 3: Calculate the total amount Sally spent on cherries.\nTotal amount spent on cherries: $11.54\n\n#6. (by #4 #5) Step 4: Calculate the total amount Sally spent.\nTotal amount spent: $15.32 + $11.54 = $26.86\n\n#7. (by #2 #6) The original question is #2. How much money did Sally spend in total? We do not miss information on the rewritten labels. So the answer to this question is Sally spent $26.86 in total.",
+        "final_answer": "23.86",
+        "gt_answer": "X = 12.32 + 11.54",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Sally had 39 baseball cards , and 9 were torn . Sara bought 24 of Sally 's baseball cards . How many baseball cards does Sally have now ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Sally had 39 baseball cards.\n#2. 9 of Sally's baseball cards were torn.\n#3. Sara bought 24 of Sally's baseball cards.\n#4. How many baseball cards does Sally have now?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the number of intact baseball cards Sally had.\nNumber of intact baseball cards: 39 - 9 = 30\n\n#6. (by #3) Step 2: Calculate the number of intact baseball cards Sally had after selling 24.\nNumber of intact baseball cards after selling 24: 30 - 24 = 6\n\n#7. (by #4 #6) The original question is #4. How many baseball cards does Sally have now? We do not miss information on the rewritten labels. So the answer to this question is Sally has 6 baseball cards now.",
+        "final_answer": "15",
+        "gt_answer": "X = 39 - 24",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Joan bought toy cars for $ 14.88 , a skateboard for $ 4.88 , and got toy trucks for $ 5.86 . She spent $ 14.55 on pants . In total , how much did Joan spend on toys ?",
+        "answer": "#1. Joan buys toy cars for $14.88, a skateboard for $4.88, and gets toy trucks for $5.86.\n#2. Joan spent $14.55 on pants.\n#3. How much did Joan spend on toys in total?\n\n#4. (by #1) Step 1: Calculate the total cost of the toys.\nCost of toy cars: $14.88\nCost of skateboard: $4.88\nCost of toy trucks: $5.86\nTotal cost of toys: $14.88 + $4.88 + $5.86 = $25.62\n\n#5. (by #2) Step 2: Subtract the cost of pants from the total cost of everything Joan bought.\nTotal cost of everything Joan bought: Cost of toys + Cost of pants = $25.62 + $14.55 = $40.17\n\n#6. (by #3 #5) The original question is #3. How much did Joan spend on toys in total? We do not miss information on the rewritten labels. So the answer to this question is Joan spent $25.62 on toys in total.",
+        "final_answer": "25.62",
+        "gt_answer": "X = 14.88 + 4.88 + 5.86",
+        "correct": true,
+        "verify_correct": true,
+        "flag": 1
+    },
+    {
+        "question": "A renovation project required 0.16666666666666666 truck-load of sand , 0.3333333333333333 truck-load of dirt , and 0.16666666666666666 truck-load of cement . How many truck-loads of material were needed in all ?",
+        "answer": "#1. The renovation project requires 0.16666666666666666 truck-load of sand, 0.3333333333333333 truck-load of dirt, and 0.16666666666666666 truck-load of cement.\n#2. The question asks how many truck-loads of material were needed in all.\n\n#3. (by #1) Step 1: Add up the amount of each material needed.\nTotal amount of sand: 0.16666666666666666\nTotal amount of dirt: 0.3333333333333333\nTotal amount of cement: 0.16666666666666666\n\n#4. (by #3) Step 2: Add up the total amount of material needed.\nTotal amount of material needed: 0.16666666666666666 + 0.3333333333333333 + 0.16666666666666666 = 0.6666666666666666\n\n#5. (by #2 #4) The original question is #2. How many truck-loads of material were needed in all? We do not miss information on the rewritten labels. So the answer to this question is that 0.6666666666666666 truck-loads of material were needed in all.",
+        "final_answer": "0.6666666666666666",
+        "gt_answer": "X = 0.16666666666666666 + 0.3333333333333333 + 0.16666666666666666",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Jason has 18 books and he has read 9 of them . Mary has 42 books . How many books do they have together ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jason has 18 books.\n#2. Jason has read 9 of his books.\n#3. Mary has 42 books.\n#4. How many books do Jason and Mary have together?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2 #3) Step 1: Calculate how many books Jason has not read.\nBooks Jason has not read: 18 - 9 = 9\n\n#6. (by #5 #3) Step 2: Calculate the total number of books Jason and Mary have together.\nTotal books Jason and Mary have together: 9 + 42 = 51\n\n#7. (by #4 #6) The original question is #4. How many books do Jason and Mary have together? We do not miss information on the rewritten labels. So the answer to this question is Jason and Mary have 51 books together.",
+        "final_answer": "60",
+        "gt_answer": "X = 18 + 42",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Keith spent $ 136.01 on speakers , $ 139.38 on a CD player , and $ 112.46 on new tires . He wanted 3 CD 's for $ 6.16 , but did n't buy them . In total , how much did he spend ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Keith spent $136.01 on speakers.\n#2. Keith spent $139.38 on a CD player.\n#3. Keith spent $112.46 on new tires.\n#4. Keith wanted to buy 3 CDs for $6.16, but didn't buy them.\n#5. Keith's total spending is being asked.\n \nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#6. (by #5) Step 1: Calculate Keith's total spending before the potential purchase of CDs.\nKeith's spending on speakers: $136.01\nKeith's spending on CD player: $139.38\nKeith's spending on new tires: $112.46\nKeith's total spending before potential CD purchase: $136.01 + $139.38 + $112.46 = $387.85\n\n#7. (by #4) Step 2: Calculate the amount Keith did not spend on CDs.\nKeith wanted to buy 3 CDs for $6.16 but did not buy them, so he did not spend $6.16.\n\n#8. (by #6 #7) Step 3: Calculate Keith's total spending.\nKeith's total spending: $387.85 - $6.16 = $381.69\n\n#9. (by #5 #8) The original question is #5. In total, how much did Keith spend? We do not miss information on the rewritten labels. So the answer to this question is Keith spent $381.69.",
+        "final_answer": "387.85",
+        "gt_answer": "X = 136.01 + 139.38 + 112.46",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "There are 7 crayons in the drawer and 6 crayons on the desk . Sam placed 4 crayons and 8 scissors on the desk . How many crayons are now there in total ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. There are 7 crayons in the drawer.\n#2. There are 6 crayons on the desk.\n#3. Sam placed 4 crayons and 8 scissors on the desk.\n#4. How many crayons are now there in total?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #2 #3) Step 1: Calculate the total number of crayons on the desk after Sam placed more.\nOriginal number of crayons on the desk: 6\nCrayons Sam added: 4\nTotal crayons on the desk: 6 + 4 = 10\n\n#6. (by#1 #5) Step 2: Calculate the total number of crayons.\nTotal crayons: 7 (in the drawer) + 10 (on the desk) = 17\n\n#7. (by #4 #6) The original question is #4. How many crayons are now there in total? We do not miss information on the rewritten labels. So the answer to this question is there are now 17 crayons in total.",
+        "final_answer": "17",
+        "gt_answer": "X = 7 + 6 + 4",
+        "correct": true,
+        "verify_correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Mary had 7 nickels in her bank . Her dad gave her 5 nickels . How many nickels does Mary have now ?",
+        "answer": "#1. Mary had 7 nickels in her bank.\n#2. Mary's dad gave her 5 nickels.\n#3. How many nickels does Mary have now?\n\n#4. (by #1 #2) Step 1: Calculate the total number of nickels Mary has after her dad gave her 5 nickels.\nTotal number of nickels Mary had: 7\nNickels Mary's dad gave her: 5\nTotal number of nickels Mary has now: 7 + 5 = 12\n\n#5. (by #3 #4) The original question is #3. How many nickels does Mary have now? We do not miss information on the rewritten labels. So the answer to this question is Mary has 12 nickels now.",
+        "final_answer": "12",
+        "gt_answer": "X = 7 + 5",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "A waitress put leftover tarts into the fridge on Thursday night . She noticed that the restaurant had 0.08333333333333333 tart filled with cherries , 0.75 tart filled with blueberries , and 0.08333333333333333 tart filled with peaches . How many leftover tarts did the restaurant have in all ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. The restaurant has leftover tarts in the fridge.\n#2. There are 0.08333333333333333 tarts filled with cherries.\n#3. There are 0.75 tarts filled with blueberries.\n#4. There are 0.08333333333333333 tarts filled with peaches.\n#5. How many leftover tarts did the restaurant have in all?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#6. (by #2 #3 #4) Step 1: Calculate the total number of tarts.\nTotal number of tarts: 0.08333333333333333 + 0.75 + 0.08333333333333333 = 0.9166666666666666\n\n#7. (by #6) Step 2: Round the total number of tarts to the nearest whole number.\nRounded total number of tarts: 1\n\n#8. (by #1 #7) Step 3: Calculate the number of leftover tarts in all.\nNumber of leftover tarts in all: 1\n\n#9. (by #5 #8) The original question is #5. How many leftover tarts did the restaurant have in all? We do not miss information on the rewritten labels. So the answer to this question is the restaurant had 1 leftover tart in all.",
+        "final_answer": "0.9166666666666666",
+        "gt_answer": "X = 0.08333333333333333 + 0.75 + 0.08333333333333333",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "In March it rained 0.81 inches . It rained 0.35 inches less in April than in March . How much did it rain in April ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. It rained 0.81 inches in March.\n#2. It rained 0.35 inches less in April than in March.\n#3. How much did it rain in April?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #2) Step 1: Calculate the amount of rain in April relative to March.\nAmount of rain in April relative to March: 0.81 - 0.35 = 0.46\n\n#5. (by #1 #4) Step 2: Calculate the amount of rain in April.\nAmount of rain in March: 0.81\nAmount of rain in April relative to March: 0.46\nAmount of rain in April: 0.81 - 0.46 = 0.35\n\n#6. (by #3 #5) The original question is #3. How much did it rain in April? We do not miss information on the rewritten labels. So the answer to this question is it rained 0.35 inches in April.",
+        "final_answer": "0.46",
+        "gt_answer": "X = 0.81 - 0.35",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Mary found 2 seashells and Keith found 5 seashells on the beach . When they cleaned them , they discovered that 9 were cracked . How many seashells did they find together ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Mary found 2 seashells.\n#2. Keith found 5 seashells.\n#3. They discovered that 9 seashells were cracked.\n#4. How many seashells did they find together?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the total number of seashells found by Mary and Keith.\nTotal number of seashells found by Mary and Keith: 2 + 5 = 7\n\n#6. (by #3) Step 2: Calculate the number of seashells that were not cracked.\nNumber of seashells that were not cracked: 7 - 9 = -2 (This is not a valid result. It means all the seashells were cracked.)\n\n#7. (by #4 #6) The original question is #4. How many seashells did they find together? However, we cannot have a negative number of seashells, so there is no valid answer to this question.\n\nTherefore, we cannot provide an answer to this question since the given information in the question leads to an invalid result.",
+        "final_answer": "7",
+        "gt_answer": "X = 2 + 5",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Dan joined his school 's band . He bought a clarinet for $ 130.30 , and a song book which was $ 11.24 . Dan found $ 12.32 in his pocket . How much did Dan spend at the music store ?",
+        "answer": "#1. Dan bought a clarinet for $130.30\n#2. Dan bought a songbook for $11.24\n#3. Dan found $12.32 in his pocket\n#4. How much did Dan spend at the music store?\n\n#5. (by #1 #2) Step 1: Calculate the total cost of the items Dan bought.\nCost of clarinet: $130.30\nCost of songbook: $11.24\nTotal cost: $130.30 + $11.24 = $141.54\n\n#6. (by #3) Step 2: Subtract the amount Dan found in his pocket from the total cost.\nAmount Dan found: $12.32\nTotal cost: $141.54\nAmount spent: $141.54 - $12.32 = $129.22\n\n#7. (by #4 #6) The original question is #4. How much did Dan spend at the music store? We do not miss information on the rewritten labels. So the answer to this question is Dan spent $129.22 at the music store.",
+        "final_answer": "141.54",
+        "gt_answer": "X = 130.30 + 11.24",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Sally had 39 baseball cards , and 9 were torn . Sara bought 24 of Sally 's baseball cards . How many baseball cards does Sally have now ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Sally had 39 baseball cards.\n#2. 9 of Sally's baseball cards were torn.\n#3. Sara bought 24 of Sally's baseball cards.\n#4. How many baseball cards does Sally have now?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the number of baseball cards Sally has that are not torn.\nNumber of baseball cards Sally had: 39\nNumber of torn baseball cards: 9\nNumber of baseball cards that are not torn: 39 - 9 = 30\n\n#6. (by #3) Step 2: Calculate the number of baseball cards Sally has after selling 24 to Sara.\nNumber of baseball cards Sally had after selling 24: 30 - 24 = 6\n\n#7. (by #4 #6) The original question is #4. How many baseball cards does Sally have now? We do not miss information on the rewritten labels. So the answer to this question is Sally now has 6 baseball cards.",
+        "final_answer": "15",
+        "gt_answer": "X = 39 - 24",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Joan has 10 books . Tom has 38 books . How many books do they have together ?",
+        "answer": "#1. Joan has 10 books.\n#2. Tom has 38 books.\n#3. The question asks for the total number of books Joan and Tom have together.\n#4. How many books do they have together?\n\n#5. (by #1 #2) Step 1: Add the number of books Joan and Tom have.\nTotal number of books: 10 + 38 = 48\n\n#6. (by #3 #5) Step 2: Joan and Tom have a total of 48 books together.\n\n#7. (by #4 #6) The original question is #4. How many books do they have together? We do not miss information on the rewritten labels. So the answer to this question is Joan and Tom have 48 books together.",
+        "final_answer": "48",
+        "gt_answer": "X = 10 + 38",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Benny picked 2 apples and Dan picked 9 apples from the apple tree . How many apples were picked in total ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Benny picked 2 apples.\n#2. Dan picked 9 apples.\n#3. Total number of apples picked is required.\n \nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1 #2) Step 1: Calculate the total number of apples picked by both Benny and Dan.\nTotal apples picked: 2 + 9 = 11\n\n#5. (by #3 #4) The original question is #3. How many apples were picked in total? We do not miss information on the rewritten labels. So the answer to this question is a total of 11 apples were picked.",
+        "final_answer": "11",
+        "gt_answer": "X = 2 + 9",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Tim found 37 seashells and Sally found 13 seashells on the beach . When they cleaned them , they discovered that 25 were cracked . How many seashells did they find together ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Tim found 37 seashells.\n#2. Sally found 13 seashells.\n#3. Together, they found some number of seashells.\n#4. 25 of the seashells they found were cracked.\n#5. How many seashells did they find together?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#6. (by #1 #2) Step 1: Calculate the total number of seashells found separately.\nTim found: 37 seashells\nSally found: 13 seashells\nTotal number of seashells found separately: 37 + 13 = 50\n\n#7. (by #4) Step 2: Calculate the number of seashells that were not cracked.\nTotal number of seashells found: unknown (label it as x)\nNumber of cracked seashells: 25\nNumber of seashells that were not cracked: x - 25\n\n#8. (by #3 #7) Step 3: Calculate the total number of seashells they found together.\nTotal number of seashells found separately: 50\nNumber of seashells that were not cracked: x - 25\nTotal number of seashells found together: 50 = x - 25\nx = 75\n\n#9. (by #5 #8) The original question is #5. How many seashells did they find together? We do not miss information on the rewritten labels. So the answer to this question is they found 75 seashells together.",
+        "final_answer": "50",
+        "gt_answer": "X = 37 + 13",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "In Yardley it snowed 0.125 inch in the morning and 0.5 inch in the afternoon . What was the total amount of snowfall ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. It snowed 0.125 inch in the morning.\n#2. It snowed 0.5 inch in the afternoon.\n#3. What was the total amount of snowfall?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1 #2) Step 1: Add the snowfall in the morning and afternoon.\nSnowfall in the morning: 0.125 inch\nSnowfall in the afternoon: 0.5 inch\nTotal snowfall: 0.125 + 0.5 = 0.625 inch\n\n#5. (by #3 #4) The original question is #3. What was the total amount of snowfall? We do not miss information on the rewritten labels. So the answer to this question is the total amount of snowfall was 0.625 inch.",
+        "final_answer": "0.625",
+        "gt_answer": "X = 0.125 + 0.5",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "At Lindsey 's Vacation Wear , 0.375 the garments are bikinis and 0.25 are trunks . What fraction of the garments are either bikinis or trunks ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. 0.375 of the garments are bikinis.\n#2. 0.25 of the garments are trunks.\n#3. We want to find the fraction of garments that are either bikinis or trunks.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1 #2) Step 1: Calculate the fraction of garments that are not bikinis or trunks.\nFraction of garments that are not bikinis: 1 - 0.375 = 0.625\nFraction of garments that are not trunks: 1 - 0.25 = 0.75\n\n#5. (by #4) Step 2: Calculate the fraction of garments that are neither bikinis nor trunks.\nFraction of garments that are neither bikinis nor trunks: 0.625 + 0.75 = 1.375\n\n#6. (by #3 #5) Step 3: Calculate the fraction of garments that are either bikinis or trunks.\nFraction of garments that are either bikinis or trunks: 1 - 1.375 = -0.375\n\n#7. (by #6) We cannot have a negative fraction, so there must be an error in our calculation. We can see that we made a mistake in Step 1 where we calculated the fraction of garments that are not bikinis or trunks separately. Instead, we should have added the fractions together to get the total fraction of garments that are not bikinis or trunks: 0.625 + 0.75 = 1.375. Then, we can subtract this from 1 to get the fraction of garments that are either bikinis or trunks: 1 - 1.375 = -0.375.\n\n#8. (by #3 #7) The original question is #3. What fraction of the garments are either bikinis or trunks? We corrected our mistake in #7 and found that the fraction of garments that are either bikinis or trunks is -0.375. However, this is not a valid fraction. Therefore, we cannot answer the original question.",
+        "final_answer": "0.625",
+        "gt_answer": "X = 0.375 + 0.25",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Mike bought some toys . He bought marbles for $ 9.05 , a football for $ 4.95 , and spent $ 6.52 on a baseball . In total , how much did Mike spend on toys ?",
+        "answer": "#1. Mike bought marbles, a football, and a baseball.\n#2. The marbles cost $9.05, the football costs $4.95, and the baseball cost $6.52.\n#3. The question asks for the total amount Mike spent on toys.\n\n#4. (by #2) Step 1: Calculate the total cost of the marbles, football, and baseball.\nTotal cost of marbles, football, and baseball: $9.05 + $4.95 + $6.52 = $20.52\n\n#5. (by #3 #4) The original question is #3. In total, how much did Mike spend on toys? We do not miss any information in the rewritten labels. So the answer to this question is Mike spent $20.52 on toys.",
+        "final_answer": "20.52",
+        "gt_answer": "X = 9.05 + 4.95 + 6.52",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "There are 7 crayons in the drawer and 6 crayons on the desk . Sam placed 4 crayons and 8 scissors on the desk . How many crayons are now there in total ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. There are 7 crayons in the drawer.\n#2. There are 6 crayons on the desk.\n#3. Sam placed 4 crayons and 8 scissors on the desk.\n#4. How many crayons are now there in total?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #2 #3) Step 1: Calculate the total number of crayons on the desk after Sam placed the crayons and scissors.\nTotal crayons on the desk: 6 + 4 = 10\n\n#6. (by #1 #5) Step 2: Calculate the total number of crayons after adding the crayons on the desk to the ones in the drawer.\nTotal crayons: 7 + 10 = 17\n\n#7. (by #4 #6) The original question is #4. How many crayons are now there in total? We do not miss information on the rewritten labels. So the answer to this question is there are now 17 crayons in total.",
+        "final_answer": "17",
+        "gt_answer": "X = 7 + 6 + 4",
+        "correct": true,
+        "verify_correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Joan joined her school 's band . She bought a trumpet for $ 149.16 , a music tool for $ 9.98 , and a song book which was $ 4.14 . Joan found $ 8.65 in her pocket . How much did Joan spend at the music store ?",
+        "answer": "#1. Joan bought a trumpet for $149.16, a music tool for $9.98, and a song book for $4.14.\n#2. Joan found $8.65 in her pocket.\n#3. How much did Joan spend at the music store?\n\n#4. (by #1) Step 1: Calculate the total cost of items Joan bought.\nTotal cost of trumpet, music tool, and song book: $149.16 + $9.98 + $4.14 = $163.28\n\n#5. (by #2) Step 2: Calculate the amount of money Joan found in her pocket.\nAmount of money Joan found in her pocket: $8.65\n\n#6. (by #4 #5) Step 3: Calculate how much Joan spent at the music store.\nAmount Joan spent at the music store: $163.28 - $8.65 = $154.63\n\n#7. (by #3 #6) The original question is #3. How much did Joan spend at the music store? We do not miss information on the rewritten labels. So the answer to this question is Joan spent $154.63 at the music store.",
+        "final_answer": "163.28",
+        "gt_answer": "X = 149.16 + 9.98 + 4.14",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "In March it rained 0.81 inches . It rained 0.35 inches less in April than in March . How much did it rain in April ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. It rained 0.81 inches in March.\n#2. It rained 0.35 inches less in April than in March.\n#3. How much did it rain in April?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #2) Step 1: Calculate how much it rained in April by adding the difference of 0.35 inches to the amount in March.\nAmount of rain in April: 0.81 - 0.35 = 0.46 inches\n\n#5. (by #3) The original question is #3. How much did it rain in April? We do not miss information on the rewritten labels. So the answer to this question is it rained 0.46 inches in April.",
+        "final_answer": "0.46",
+        "gt_answer": "X = 0.81 - 0.35",
+        "correct": true,
+        "flag": 0
+    },
+    {
+        "question": "There are 7 crayons in the drawer and 6 crayons on the desk . Sam placed 4 crayons and 8 scissors on the desk . How many crayons are now there in total ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. There are 7 crayons in the drawer.\n#2. There are 6 crayons on the desk.\n#3. Sam placed 4 crayons and 8 scissors on the desk.\n#4. How many crayons are now there in total?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #2 #3) Step 1: Calculate the total number of crayons on the desk after Sam placed them.\nTotal number of crayons: 6 + 4 = 10\n\n#6. (by #1 #5) Step 2: Calculate the total number of crayons.\nTotal number of crayons: 7 + 10 = 17\n\n#7. (by #4 #6) The original question is #4. How many crayons are now there in total? We do not miss information on the rewritten labels. So the answer to this question is there are 17 crayons in total.",
+        "final_answer": "17",
+        "gt_answer": "X = 7 + 6 + 4",
+        "correct": true,
+        "verify_correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Jessica grew 35 watermelons and 30 carrots , but the rabbits ate 27 watermelons . How many watermelons does Jessica have ?",
+        "answer": "#1. Jessica grew 35 watermelons and 30 carrots.\n#2. The rabbits ate 27 watermelons.\n#3. How many watermelons does Jessica have left?\n\n#4. (by #1 #2) Step 1: Calculate the number of watermelons Jessica has left after the rabbits ate some.\nNumber of watermelons Jessica grew: 35\nNumber of watermelons the rabbits ate: 27\nNumber of watermelons Jessica has left: 35 - 27 = 8\n\n#5. (by #3 #4) The original question is #3. How many watermelons does Jessica have left? We do not miss information on the rewritten labels. So the answer to this question is Jessica has 8 watermelons left.",
+        "final_answer": "8",
+        "gt_answer": "X = 35 - 27",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Last week Tom had 74 dollars . He washed cars over the weekend and now has 86 dollars . How much money did he make washing cars ?",
+        "answer": "#1. Last week Tom had 74 dollars.\n#2. Tom now has 86 dollars after washing cars over the weekend.\n#3. Tom made some amount of money washing cars.\n#4. How much money did Tom make washing cars?\n\n#5. (by #2 #1) Step 1: Calculate the amount of money Tom made from washing cars.\nAmount of money Tom made from washing cars: $86 - $74 = $12\n\n#6. (by #4 #5) The original question is #4. How much money did Tom make washing cars? We do not miss information on the rewritten labels. So the answer to this question is Tom made $12 washing cars.",
+        "final_answer": "12",
+        "gt_answer": "74 + X = 86",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Jason joined his school 's band . He bought a flute for $ 142.46 , a music tool for $ 8.89 , and a song book for $ 7 . How much did Jason spend at the music store ?",
+        "answer": "#1. Jason bought a flute for $142.46, a music tool for $8.89, and a song book for $7.\n#2. Jason wants to know how much money he spent at the music store.\n\n#3. (by #1) Step 1: Add up the cost of all the items Jason bought at the music store.\nFlute: $142.46\nMusic tool: $8.89\nSong book: $7.00\nTotal cost: $142.46 + $8.89 + $7.00 = $158.35\n\n#4. (by #2 #3) The original question is #2. How much did Jason spend at the music store? The answer is Jason spent $158.35 at the music store.",
+        "final_answer": "158.35",
+        "gt_answer": "X = 142.46 + 8.89 + 7",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Keith spent $ 6.51 on a rabbit toy , $ 5.79 on pet food , and a cage cost him $ 12.51 . He found a dollar bill on the ground . What was the total cost of Keith 's purchases ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n\n#1. Keith spent $6.51 on a rabbit toy.\n#2. Keith spent $5.79 on pet food.\n#3. Keith spent $12.51 on a cage.\n#4. Keith found a dollar bill on the ground.\n#5. What was the total cost of Keith's purchases?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#6. (by #1 #2 #3) Step 1: Calculate the total cost of Keith's purchases before finding the dollar bill.\nTotal cost before finding the dollar bill: $6.51 + $5.79 + $12.51 = $24.81\n\n#7. (by #4) Step 2: Calculate the amount of money Keith has after finding the dollar bill.\nAmount of money Keith has after finding the dollar bill: $1\n\n#8. (by #6 #7) Step 3: Calculate the total cost of Keith's purchases after finding the dollar bill.\nTotal cost after finding the dollar bill: $24.81 - $1 = $23.81\n\n#9. (by #5 #8) The original question is #5. What was the total cost of Keith's purchases? We do not miss information on the rewritten labels. So the answer to this question is Keith's total cost of purchases was $23.81.",
+        "final_answer": "24.81",
+        "gt_answer": "X = 6.51 + 5.79 + 12.51",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "After paying 6 dollars for the pie , Mary has 52 dollars , her friend has 43 dollars . How much money did she have before buying the pie ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Mary pays $6 for a pie.\n#2. After paying for the pie, Mary has $52.\n#3. Mary's friend has $43.\n#4. How much money did Mary have before buying the pie?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #2 #3) Step 1: Calculate how much money Mary and her friend have combined.\nMary's money: $52\nFriend's money: $43\nTotal money: $52 + $43 = $95\n\n#6. (by #1 #2) Step 2: Calculate how much money Mary had before paying for the pie.\nMary's money after paying for the pie: $52\nPrice of the pie: $6\nMary's money before paying for the pie: $52 + $6 = $58\n\n#7. (by #4 #6) The original question is #4. How much money did Mary have before buying the pie? We do not miss information on the rewritten labels. So the answer to this question is Mary had $58 before buying the pie.",
+        "final_answer": "58",
+        "gt_answer": "X - 6 = 52",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Melanie had 30 baseball cards , and 9 were torn . Sara bought 18 of Melanie 's baseball cards . How many baseball cards does Melanie have now ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Melanie had 30 baseball cards.\n#2. 9 of Melanie's baseball cards were torn.\n#3. Sara bought 18 of Melanie's baseball cards.\n#4. How many baseball cards does Melanie have now?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the number of Melanie's good baseball cards.\nGood baseball cards: 30 - 9 = 21\n\n#6. (by #5 #3) Step 2: Calculate the number of Melanie's baseball cards after Sara bought 18 of them.\nMelanie's remaining baseball cards: 21 - 18 = 3\n\n#7. (by #4 #6) The original question is #4. How many baseball cards does Melanie have now? We do not miss information on the rewritten labels. So the answer to this question is Melanie has 3 baseball cards now.",
+        "final_answer": "12",
+        "gt_answer": "X = 30 - 18",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "A car company produced 3884 cars in North America and 2871 cars in Europe . How many cars is that in all ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. The car company produced 3884 cars in North America.\n#2. The car company produced 2871 cars in Europe.\n#3. The question is asking for the total number of cars produced.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1 #2) Step 1: Add the number of cars produced in North America and Europe.\nTotal number of cars produced: 3884 + 2871 = 6755\n\n#5. (by #3 #4) The original question is #3. How many cars is that in all? We do not miss information on the rewritten labels. So the answer to this question is the car company produced 6755 cars in total.",
+        "final_answer": "6755",
+        "gt_answer": "X = 3884.0 + 2871.0",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Mary picked 122 oranges and Jason picked 105 oranges from the orange tree . How many oranges were picked in total ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Mary picked 122 oranges.\n#2. Jason picked 105 oranges.\n#3. The question asks for the total number of oranges picked.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1 #2) Step 1: Add the number of oranges picked by Mary and Jason.\nTotal number of oranges picked: 122 + 105 = 227\n\n#5. (by #3 #4) The original question is #3. How many oranges were picked in total? We do not miss information on the rewritten labels. So the answer to this question is 227 oranges were picked in total.",
+        "final_answer": "227",
+        "gt_answer": "X = 122 + 105",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Brandy made trail mix for a backpacking trip . She used 0.16666666666666666 pound of peanuts , 0.16666666666666666 pound of chocolate chips , and 0.08333333333333333 pound of raisins . How many pounds of trail mix did Brandy make ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Brandy made trail mix using peanuts, chocolate chips, and raisins.\n#2. Brandy used 0.16666666666666666 pound of peanuts.\n#3. Brandy used 0.16666666666666666 pound of chocolate chips.\n#4. Brandy used 0.08333333333333333 pound of raisins.\n#5. How many pounds of trail mix did Brandy make?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#6. (by #2 #3 #4) Step 1: Calculate the total weight of ingredients Brandy used.\nWeight of peanuts: 0.16666666666666666 pound\nWeight of chocolate chips: 0.16666666666666666 pound\nWeight of raisins: 0.08333333333333333 pound\nTotal weight of ingredients: 0.16666666666666666 + 0.16666666666666666 + 0.08333333333333333 = 0.4166666666666666 pound\n\n#7. (by #5 #6) The original question is #5. How many pounds of trail mix did Brandy make? We do not miss information on the rewritten labels. So the answer to this question is Brandy made 0.4166666666666666 pound of trail mix.",
+        "final_answer": "0.4166666666666667",
+        "gt_answer": "X = 0.16666666666666666 + 0.16666666666666666 + 0.08333333333333333",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Joan joined her school 's band . She bought a trumpet for $ 149.16 , a music tool for $ 9.98 , and a song book which was $ 4.14 . Joan found $ 8.65 in her pocket . How much did Joan spend at the music store ?",
+        "answer": "#1. Joan bought a trumpet for $149.16, a music tool for $9.98, and a song book for $4.14.\n#2. Joan found $8.65 in her pocket.\n#3. The question asks for how much Joan spent at the music store.\n\n#4. (by #1 #2 #3) To find out how much Joan spent at the music store, we need to add up the cost of the trumpet, music tool, and song book and subtract the amount she found in her pocket.\nTotal cost of items Joan bought: $149.16 + $9.98 + $4.14 = $163.28\nAmount Joan found in her pocket: $8.65\nJoan's total spending at the music store: $163.28 - $8.65 = $154.63\n\n#5. (by #3 #4) The answer to the question is Joan spent $154.63 at the music store.",
+        "final_answer": "163.28",
+        "gt_answer": "X = 149.16 + 9.98 + 4.14",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Heather went to the county fair last weekend . When she got there , she had to walk 0.3333333333333333 mile from the car to the entrance . Then she walked 0.3333333333333333 mile to the carnival rides and 0.08333333333333333 mile from the carnival rides back to the car . How many miles did Heather walk in all ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Heather walks 0.3333333333333333 mile from the car to the entrance.\n#2. Heather walks 0.3333333333333333 mile to the carnival rides.\n#3. Heather walks 0.08333333333333333 mile from the carnival rides back to the car.\n#4. How many miles did Heather walk in all?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2 #3) Step 1: Add up the distances Heather walked.\nTotal distance walked by Heather: 0.3333333333333333 + 0.3333333333333333 + 0.08333333333333333 = 0.75 miles\n\n#6. (by #4 #5) The original question is #4. How many miles did Heather walk in all? We do not miss information on the rewritten labels. So the answer to this question is Heather walked a total of 0.75 miles.",
+        "final_answer": "0.75",
+        "gt_answer": "X = 0.3333333333333333 + 0.3333333333333333 + 0.08333333333333333",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Sam 's dog had puppies and 8 had spots . He gave 2 to his friends . He now has 6 puppies . How many puppies did he have to start with ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Sam had puppies.\n#2. 8 of Sam's puppies had spots.\n#3. Sam gave 2 puppies to his friends.\n#4. Sam now has 6 puppies.\n#5. How many puppies did Sam have to start with?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#6. (by #2) Step 1: Calculate the number of puppies that did not have spots.\nNumber of puppies with spots: 8\nTotal puppies: Unknown\nNumber of puppies without spots: Total puppies - 8\n\n#7. (by #3 #4) Step 2: Calculate the number of puppies Sam had after giving 2 to his friends.\nNumber of puppies after giving 2 away: 6\nNumber of puppies before giving 2 away: 6 + 2 = 8\n\n#8. (by #1 #6 #7) Step 3: Calculate the number of puppies Sam had to start with.\nNumber of puppies without spots: Total puppies - 8\nNumber of puppies before giving 2 away: 8\nTotal puppies: Number of puppies before giving 2 away + Number of puppies without spots\nTotal puppies: 8 + (Total puppies - 8)\nTotal puppies: 2 * Total puppies - 8\nTotal puppies: 2 * Total puppies = 8\nTotal puppies: Total puppies = 4\n\n#9. (by #5 #8) The original question is #5. How many puppies did Sam have to start with? We do not miss information on the rewritten labels. So the answer to this question is Sam had 8 puppies to start with.",
+        "final_answer": "8",
+        "gt_answer": "X - 2 = 6",
+        "correct": true,
+        "flag": 0
+    },
+    {
+        "question": "Fred went to 36 basketball games this year , but missed 35 . He went to 11 games last year . How many basketball games did Fred go to in total ?",
+        "answer": "#1. Fred went to 36 basketball games this year.\n#2. Fred missed 35 basketball games this year.\n#3. Fred went to 11 basketball games last year.\n#4. How many basketball games did Fred go to in total?\n\n#5. (by #1 #2) Step 1: Calculate the number of basketball games Fred attended this year.\nNumber of basketball games attended this year: 36 - 35 = 1\n\n#6. (by #3) Step 2: Add the number of basketball games Fred attended last year.\nTotal number of basketball games attended: 1 + 11 = 12\n\n#7. (by #4 #6) The original question is #4. How many basketball games did Fred go to in total? We do not miss information on the rewritten labels. So the answer to this question is Fred went to 12 basketball games in total.",
+        "final_answer": "47",
+        "gt_answer": "X = 36 + 11",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Gordon bought 3.42 pounds of fruit for a class party . The class ate 2.2 pounds of the fruit . How much fruit is ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Gordon bought 3.42 pounds of fruit.\n#2. The class ate 2.2 pounds of the fruit.\n#3. How much fruit is left?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1 #2) Step 1: Calculate how much fruit is left.\nFruit bought by Gordon: 3.42 pounds\nFruit eaten by the class: 2.2 pounds\nFruit left: 3.42 pounds - 2.2 pounds = 1.22 pounds\n\n#5. (by #3 #4) The original question is #3. How much fruit is left? We do not miss information on the rewritten labels. So the answer to this question is 1.22 pounds.",
+        "final_answer": "1.22",
+        "gt_answer": "X = 3.42 - 2.2",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Sally had 39 baseball cards , and 9 were torn . Sara bought 24 of Sally 's baseball cards . How many baseball cards does Sally have now ?",
+        "answer": "#1. Sally had 39 baseball cards.\n#2. 9 of Sally's baseball cards were torn.\n#3. Sara bought 24 of Sally's baseball cards.\n#4. How many baseball cards does Sally have now?\n\n#5. (by #1 #2) Step 1: Calculate how many baseball cards Sally has that are not torn.\nBaseball cards that are not torn: 39 - 9 = 30\n\n#6. (by #5 #3) Step 2: Calculate how many baseball cards Sally has left after selling 24 to Sara.\nBaseball cards Sally has left: 30 - 24 = 6\n\n#7. (by #4 #6) The original question is #4. How many baseball cards does Sally have now? We do not miss information on the rewritten labels. So the answer to this question is Sally has 6 baseball cards now.",
+        "final_answer": "15",
+        "gt_answer": "X = 39 - 24",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "There are 31 short trees and 32 tall trees currently in the park . Park workers will plant short trees today . When the workers are finished there will be 95 short trees in the park . How many short trees did the workers plant today ?",
+        "answer": "#1. There are 31 short trees and 32 tall trees in the park.\n#2. Park workers will plant short trees today.\n#3. After the workers are finished, there will be 95 short trees in the park.\n#4. How many short trees did the workers plant today?\n\n#5. (by #3 #1) Step 1: Calculate the number of short trees the workers need to plant.\nTotal trees in the park before planting: 31 + 32 = 63\nNumber of short trees needed after planting: 95 - 32 = 63\n\n#6. (by #5 #1) Step 2: Calculate the number of short trees already in the park.\nNumber of short trees before planting: 63 - 32 = 31\n\n#7. (by #6 #5) Step 3: Calculate the number of short trees the workers need to plant.\nNumber of short trees the workers need to plant: 63 - 31 = 32\n\n#8. (by #4 #7) The original question is #4. How many short trees did the workers plant today? We do not miss information on the rewritten labels. So the answer to this question is the workers planted 32 short trees today.",
+        "final_answer": "64",
+        "gt_answer": "31 + X = 95",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "There are 7 crayons in the drawer and 6 crayons on the desk . Sam placed 4 crayons and 8 scissors on the desk . How many crayons are now there in total ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. There are 7 crayons in the drawer.\n#2. There are 6 crayons on the desk.\n#3. Sam placed 4 crayons and 8 scissors on the desk.\n#4. How many crayons are now there in total?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the total number of crayons before Sam placed some on the desk.\nTotal number of crayons before: 7 + 6 = 13 crayons\n\n#6. (by #3) Step 2: Calculate the number of crayons Sam placed on the desk.\nNumber of crayons Sam placed: 4 crayons\n\n#7. (by #5 #6) Step 3: Calculate the total number of crayons on the desk after Sam placed some.\nTotal number of crayons on the desk: 6 + 4 = 10 crayons\n\n#8. (by #7) Step 4: Calculate the total number of crayons now there in total.\nTotal number of crayons now: 10 crayons\n\n#9. (by #4 #8) The original question is #4. How many crayons are now there in total? We do not miss information on the rewritten labels. So the answer to this question is there are 10 crayons now in total.",
+        "final_answer": "17",
+        "gt_answer": "X = 7 + 6 + 4",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Mary had 33 Pokemon cards , and 6 were torn . Sam gave Mary 23 new Pokemon cards . How many Pokemon cards does Mary have now ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Mary had 33 Pokemon cards, 6 of which were torn.\n#2. Sam gave Mary 23 new Pokemon cards.\n#3. How many Pokemon cards does Mary have now?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate how many Pokemon cards Mary had that were not torn.\nNumber of Pokemon cards Mary had: 33\nNumber of torn Pokemon cards: 6\nNumber of Pokemon cards that were not torn: 33 - 6 = 27\n\n#5. (by #2 #4) Step 2: Calculate how many Pokemon cards Mary has after Sam gave her new ones.\nNumber of new Pokemon cards Sam gave Mary: 23\nTotal number of Pokemon cards Mary has now: 27 + 23 = 50\n\n#6. (by #3 #5) The original question is #3. How many Pokemon cards does Mary have now? We do not miss information on the rewritten labels. So the answer to this question is Mary has 50 Pokemon cards now.",
+        "final_answer": "56",
+        "gt_answer": "X = 33 + 23",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "There were 46 bales of hay in the barn and 32 bales in the shed . Tom stacked bales in the barn today . There are now 60 bales of hay in the barn . How many bales did he store in the barn ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. There were 46 bales of hay in the barn.\n#2. There were 32 bales of hay in the shed.\n#3. Tom stacked bales in the barn today.\n#4. There are now 60 bales of hay in the barn.\n#5. How many bales did Tom store in the barn?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#6. (by #1 #4) Step 1: Calculate how many bales of hay Tom stacked in the barn.\nNumber of bales in the barn before Tom stacked: 46\nNumber of bales added by Tom: ?\nTotal number of bales in the barn after Tom stacked: 60\nSo, ? + 46 = 60\nTom stacked bales in the barn: 60 - 46 = 14\n\n#7. (by #5 #6) The original question is #5. How many bales did Tom store in the barn? We do not miss information on the rewritten labels. So the answer to this question is Tom stored 14 bales of hay in the barn.",
+        "final_answer": "14",
+        "gt_answer": "46 + X = 60",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Last year , 90171 people were born in a country , and 16320 people immigrated to it . How many new people began living in the country last year ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. 90171 people were born in the country last year.\n#2. 16320 people immigrated to the country last year.\n#3. The question is asking for how many new people began living in the country last year.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1 #2) Step 1: Calculate the total number of people who began living in the country last year.\nTotal number of people who began living in the country last year: 90171 + 16320 = 106491\n\n#5. (by #3 #4) The original question is #3. How many new people began living in the country last year? We do not miss information on the rewritten labels. So the answer to this question is 106491.",
+        "final_answer": "106491",
+        "gt_answer": "X = 90171.0 + 16320.0",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "There are 7 crayons in the drawer and 6 crayons on the desk . Sam placed 4 crayons and 8 scissors on the desk . How many crayons are now there in total ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. There are 7 crayons in the drawer.\n#2. There are 6 crayons on the desk.\n#3. Sam placed 4 crayons and 8 scissors on the desk.\n#4. How many crayons are now there in total?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #2 #3) Step 1: Calculate the total number of crayons on the desk after Sam placed the new items.\nCrayons on the desk before: 6\nCrayons Sam placed: 4\nTotal crayons on the desk after: 6 + 4 = 10\n\n#6. (by #1 #5) Step 2: Calculate the total number of crayons.\nCrayons in the drawer: 7\nCrayons on the desk after: 10\nTotal crayons: 7 + 10 = 17\n\n#7. (by #4 #6) The original question is #4. How many crayons are now there in total? We do not miss information on the rewritten labels. So the answer to this question is there are 17 crayons in total.",
+        "final_answer": "17",
+        "gt_answer": "X = 7 + 6 + 4",
+        "correct": true,
+        "verify_correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Mike joined his school 's band . He bought a trumpet for $ 145.16 , and a song book which was $ 5.84 . How much did Mike spend at the music store ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Mike buys a trumpet for $145.16.\n#2. Mike buys a song book for $5.84.\n#3. How much did Mike spend at the music store?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1 #2) Step 1: Calculate the total amount spent by Mike at the music store.\nCost of trumpet: $145.16\nCost of song book: $5.84\nTotal cost: $145.16 + $5.84 = $151\n\n#5. (by #3 #4) The original question is #3. How much did Mike spend at the music store? We do not miss information on the rewritten labels. So the answer to this question is Mike spent $151 at the music store.",
+        "final_answer": "151",
+        "gt_answer": "X = 145.16 + 5.84",
+        "correct": true,
+        "verify_correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Jason has 18 books and he has read 9 of them . Mary has 42 books . How many books do they have together ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jason has 18 books.\n#2. Jason has read 9 of his books.\n#3. Mary has 42 books.\n#4. How many books do Jason and Mary have together?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1) Step 1: Calculate the number of books Jason has not read.\nNumber of books Jason has not read: 18 - 9 = 9\n\n#6. (by #3) Step 2: Add Mary's number of books to Jason's number of books.\nTotal number of books Jason and Mary have together: 9 + 42 = 51\n\n#7. (by #4 #6) The original question is #4. How many books do Jason and Mary have together? We do not miss information on the rewritten labels. So the answer to this question is Jason and Mary have 51 books together.",
+        "final_answer": "60",
+        "gt_answer": "X = 18 + 42",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Sara has 3 green and 5 red marbles . Tom has 4 green marbles . How many green marbles do they have in total ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Sara has 3 green and 5 red marbles.\n#2. Tom has 4 green marbles.\n#3. We need to find the total number of green marbles they have.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the number of green marbles Sara has.\nNumber of green marbles Sara has: 3\n\n#5. (by #2) Step 2: Calculate the number of green marbles Tom has.\nNumber of green marbles Tom has: 4\n\n#6. (by #4 #5) Step 3: Calculate the total number of green marbles.\nTotal number of green marbles: 3 + 4 = 7\n\n#7. (by #3 #6) The original question is #3. How many green marbles do they have in total? We do not miss information on the rewritten labels. So the answer to this question is they have 7 green marbles in total.",
+        "final_answer": "7",
+        "gt_answer": "X = 3 + 4",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Joan found 75 seashells and 14 starfishes on the beach . She gave Tim some of her seashells . She has 62 seashell . How many seashells did she give to Tim ?",
+        "answer": "#1. Joan found 75 seashells and 14 starfishes on the beach.\n#2. Joan gave some of her seashells to Tim.\n#3. Joan has 62 seashells left.\n#4. How many seashells did Joan give to Tim?\n\n#5. (by #1 #3) Step 1: Calculate the total number of seashells Joan had before giving any to Tim.\nTotal seashells Joan found: 75\nSeashells Joan has left: 62\nTotal seashells Joan had before giving any to Tim: 75 + 62 = 137\n\n#6. (by #5) Step 2: Calculate the number of seashells Joan gave to Tim.\nSeashells Joan gave to Tim: 137 - Tim's seashells\n\n#7. (by #2 #6 #3) Step 3: Substitute the known values into the equation from Step 2 to solve for Tim's seashells.\nSeashells Joan gave to Tim: 137 - Tim's seashells\nJoan has 62 seashells left: 137 - Tim's seashells = 62\nTim's seashells = 137 - 62 = 75\n\n#8. (by #4 #7) The original question is #4. How many seashells did Joan give to Tim? We do not miss information on the rewritten labels. So the answer to this question is Joan gave 75 seashells to Tim.",
+        "final_answer": "13",
+        "gt_answer": "75 - X = 62",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "There were 32 bales of hay in the barn and 26 bales in the shed . Jason stacked bales in the barn today . There are now 98 bales of hay in the barn . How many bales did he store in the barn ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. There were 32 bales of hay in the barn.\n#2. There were 26 bales of hay in the shed.\n#3. Jason stacked bales in the barn today.\n#4. There are now 98 bales of hay in the barn.\n#5. How many bales did Jason store in the barn?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#6. (by #1 #4) Step 1: Calculate how many bales of hay Jason stacked in the barn.\nNumber of bales of hay in the barn before Jason stacked more: 32\nNumber of bales of hay Jason added to the barn: ?\nTotal number of bales of hay in the barn after Jason stacked more: 98\nNumber of bales of hay Jason added to the barn: 98 - 32 = 66\n\n#7. (by #5 #6) The original question is #5. How many bales did Jason store in the barn? We do not miss information on the rewritten labels. So the answer to this question is Jason stored 66 bales of hay in the barn.",
+        "final_answer": "66",
+        "gt_answer": "32 + X = 98",
+        "correct": true,
+        "verify_correct": true,
+        "flag": 1
+    },
+    {
+        "question": "There are 107 walnut trees currently in the park . Park workers will plant 104 walnut trees today . How many walnut trees will the park have when the workers are finished ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. There are currently 107 walnut trees in the park.\n#2. Park workers will plant 104 walnut trees today.\n#3. The question is asking for the total number of walnut trees in the park after the workers are done planting.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1 #2) Step 1: Calculate the total number of walnut trees in the park after the workers are done planting.\nCurrent number of walnut trees: 107\nNumber of walnut trees to be planted: 104\nTotal number of walnut trees in the park after planting: 107 + 104 = 211\n\n#5. (by #3 #4) The original question is #3. How many walnut trees will the park have when the workers are finished? We do not miss information on the rewritten labels. So the answer to this question is the park will have 211 walnut trees when the workers are finished planting.",
+        "final_answer": "211",
+        "gt_answer": "X = 107 + 104",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Melanie had 10 quarters and 17 pennies in her bank . Her dad gave her 27 pennies and her mother gave her 19 pennies . How many pennies does Melanie have now ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Melanie had 10 quarters and 17 pennies in her bank.\n#2. Melanie's dad gave her 27 pennies.\n#3. Melanie's mom gave her 19 pennies.\n#4. How many pennies does Melanie have now?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1) Step 1: Calculate the number of pennies Melanie had initially.\nNumber of pennies in 10 quarters: 10 * 25 = 250\nNumber of pennies initially: 250 + 17 = 267\n\n#6. (by #2 #3) Step 2: Calculate the total number of pennies Melanie received from her dad and mom.\nTotal pennies given by dad and mom: 27 + 19 = 46\n\n#7. (by #5 #6) Step 3: Calculate the total number of pennies Melanie has now.\nTotal number of pennies Melanie has now: 267 + 46 = 313\n\n#8. (by #4 #7) The original question is #4. How many pennies does Melanie have now? We do not miss information on the rewritten labels. So the answer to this question is Melanie has 313 pennies now.",
+        "final_answer": "63",
+        "gt_answer": "X = 17 + 27 + 19",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Benny received 79 dollars and 9 movie tickets for his birthday . He went to a sporting goods store and bought a baseball glove , baseball , and bat . He had 32 dollars over , how much did he spent on the baseball gear ?",
+        "answer": "#1. Benny received 79 dollars and 9 movie tickets for his birthday.\n#2. Benny went to a sporting goods store and bought a baseball glove, baseball, and bat.\n#3. Benny had 32 dollars left over.\n#4. How much did Benny spend on the baseball gear?\n\n#5. (by #3) Step 1: Calculate how much Benny had to spend in total.\nTotal amount Benny had: $79\nTotal amount of movie tickets: 9\nAssuming each movie ticket is worth $10, total amount of movie tickets: $10 * 9 = $90\nTotal amount Benny had to spend: $79 + $90 = $169\n\n#6. (by #5) Step 2: Calculate how much Benny spent on the baseball gear.\nAmount Benny had left over: $32\nAmount Benny spent on baseball gear: $169 - $32 = $137\n\n#7. (by #4 #6) The original question is #4. How much did Benny spend on the baseball gear? We do not miss information on the rewritten labels. So the answer to this question is Benny spent $137 on the baseball gear.",
+        "final_answer": "47",
+        "gt_answer": "X = 79 - 32",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "A dust storm sweeps across the prairie . It covers 64535 acres of the prairie in dust , but leaves 522 acres untouched . How many acres does the prairie cover ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. A dust storm covers 64535 acres of the prairie in dust.\n#2. The dust storm leaves 522 acres untouched.\n#3. The total area of the prairie is unknown.\n#4. How many acres does the prairie cover?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the total area affected by the dust storm.\nTotal area affected by the dust storm: 64535 + 522 = 65057 acres\n\n#6. (by #3 #5) Step 2: Calculate the total area of the prairie.\nTotal area of the prairie: 65057 acres\n\n#7. (by #4 #6) The original question is #4. How many acres does the prairie cover? We do not miss information on the rewritten labels. So the answer to this question is The prairie covers 65057 acres.",
+        "final_answer": "64013",
+        "gt_answer": "X = 64535.0 - 522.0",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Tim had 7 quarters and 9 nickels in his bank . His dad gave him 3 nickels and 5 pennies . How many nickels does Tim have now ?",
+        "answer": "#1. Tim had 7 quarters and 9 nickels in his bank.\n#2. Tim's dad gave him 3 nickels and 5 pennies.\n#3. The question asks how many nickels Tim has now.\n\n#4. (by #1 #2) Step 1: Calculate the total number of nickels Tim had before his dad gave him more.\nTotal nickels Tim had before: 9\nTotal nickels Tim's dad gave him: 3\nTotal: 9 + 3 = 12\n\n#5. (by #4 #2) Step 2: Calculate the total number of nickels Tim has now.\nTotal nickels Tim had before: 12\nTotal pennies Tim's dad gave him: 5 (since there are no other pennies mentioned)\nConvert pennies to nickels: 5 / 5 = 1\nTotal nickels Tim has now: 12 + 1 = 13\n\n#6. (by #3 #5) The original question is how many nickels Tim has now. According to #5, Tim has 13 nickels now. Therefore, the answer is Tim has 13 nickels now.",
+        "final_answer": "12",
+        "gt_answer": "X = 9 + 3",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Logan recorded the snowfall every day during a snowstorm . He recorded 0.3333333333333333 centimeter on Wednesday , 0.3333333333333333 centimeter on Thursday , and 0.2222222222222222 centimeter on Friday . How many total centimeters of snow did Logan record ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Logan recorded snowfall every day during a snowstorm.\n#2. Logan recorded 0.3333333333333333 centimeter on Wednesday.\n#3. Logan recorded 0.3333333333333333 centimeter on Thursday.\n#4. Logan recorded 0.2222222222222222 centimeter on Friday.\n#5. How many total centimeters of snow did Logan record?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#6. (by #2 #3 #4) Step 1: Add up the snowfall on all three days.\nTotal snowfall on Wednesday, Thursday, and Friday: 0.3333333333333333 + 0.3333333333333333 + 0.2222222222222222 = 0.8888888888888888\n\n#7. (by #5 #6) Step 2: Calculate the total centimeters of snow Logan recorded.\nTotal centimeters of snow Logan recorded: 0.8888888888888888\n\n#8. (by #5 #7) The original question is #5. How many total centimeters of snow did Logan record? We do not miss information on the rewritten labels. So the answer to this question is Logan recorded a total of 0.8888888888888888 centimeters of snow.",
+        "final_answer": "0.8888888888888888",
+        "gt_answer": "X = 0.3333333333333333 + 0.3333333333333333 + 0.2222222222222222",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Karin 's science class weighed plastic rings for an experiment . They found that the orange ring weighed 0.08333333333333333 ounce , the purple ring weighed 0.3333333333333333 ounce , and the white ring weighed 0.4166666666666667 ounce . What was the total weight of the plastic rings ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Karin's science class weighed plastic rings for an experiment.\n#2. Orange ring weighs 0.08333333333333333 ounces.\n#3. Purple ring weighs 0.3333333333333333 ounces.\n#4. White ring weighs 0.4166666666666667 ounces.\n#5. What was the total weight of the plastic rings?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#6. (by #2 #3 #4) Step 1: Add up the weight of the orange, purple, and white rings.\nWeight of orange ring: 0.08333333333333333 ounces\nWeight of purple ring: 0.3333333333333333 ounces\nWeight of white ring: 0.4166666666666667 ounces\nTotal weight of all rings: 0.08333333333333333 + 0.3333333333333333 + 0.4166666666666667 = 0.8333333333333333 ounces\n\n#7. (by #5 #6) The original question is #5. What was the total weight of the plastic rings? We do not miss information on the rewritten labels. So the answer to this question is the total weight of the plastic rings is 0.8333333333333333 ounces.",
+        "final_answer": "0.8333333333333334",
+        "gt_answer": "X = 0.08333333333333333 + 0.3333333333333333 + 0.4166666666666667",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Sara has 3 green and 5 red marbles . Tom has 4 green marbles . How many green marbles do they have in total ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Sara has 3 green and 5 red marbles.\n#2. Tom has 4 green marbles.\n#3. Total number of green marbles Sara and Tom have together.\n#4. How many green marbles do they have in total?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1) Step 1: Calculate the number of green marbles Sara has.\nNumber of green marbles Sara has: 3\n\n#6. (by #2) Step 2: Calculate the number of green marbles Tom has.\nNumber of green marbles Tom has: 4\n\n#7. (by #5 #6) Step 3: Calculate the total number of green marbles Sara and Tom have together.\nTotal number of green marbles: 3 + 4 = 7\n\n#8. (by #4 #7) The original question is #4. How many green marbles do they have in total? We do not miss information on the rewritten labels. So the answer to this question is Sara and Tom have a total of 7 green marbles.",
+        "final_answer": "7",
+        "gt_answer": "X = 3 + 4",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Mike joined his school 's band . He bought a trumpet for $ 145.16 , and a song book which was $ 5.84 . How much did Mike spend at the music store ?",
+        "answer": "#1. Mike bought a trumpet and a song book from the music store.\n#2. The trumpet costs $145.16 and the song book costs $5.84.\n#3. The question asks how much Mike spent at the music store.\n\n#4. (by #2) Step 1: Add the cost of the trumpet and the song book.\nTotal cost of trumpet and song book: $145.16 + $5.84 = $151\n\n#5. (by #3 #4) The original question is #3. How much did Mike spend at the music store? We do not miss information on the rewritten labels. So the answer to this question is Mike spent $151 at the music store.",
+        "final_answer": "151",
+        "gt_answer": "X = 145.16 + 5.84",
+        "correct": true,
+        "verify_correct": true,
+        "flag": 1
+    },
+    {
+        "question": "A dust storm sweeps across the prairie . It covers 64535 acres of the prairie in dust , but leaves 522 acres untouched . How many acres does the prairie cover ?",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. A dust storm covers 64535 acres of the prairie in dust.\n#2. The dust storm leaves 522 acres untouched.\n#3. How many acres does the prairie cover?\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1 #2) Step 1: Calculate the total area affected by the dust storm.\nTotal area affected by dust storm: 64535 + 522 = 65057 acres\n\n#5. (by #3) The original question is #3. How many acres does the prairie cover? We do not have enough information to answer this question. The question seems to be missing some information or context.",
+        "final_answer": "64013",
+        "gt_answer": "X = 64535.0 - 522.0",
+        "correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Joan spent $ 15 on shorts and $ 14.82 on a jacket , and $ 12.51 on a shirt . She went to 3 shops . In total , how much money did Joan spend on clothing ?",
+        "answer": "#1. Joan spent $15 on shorts.\n#2. Joan spent $14.82 on a jacket.\n#3. Joan spent $12.51 on a shirt.\n#4. Joan went to 3 shops.\n#5. (by #1-#3) Step 1: Calculate the total amount of money Joan spent on clothing.\nTotal amount Joan spent on clothing: $15 + $14.82 + $12.51 = $42.33\n#6. (by #4 #5) Step 2: Calculate the total amount of money Joan spent on clothing in all 3 shops.\nJoan spent a total of $42.33 on clothing in all 3 shops. \n#7. (by #6) The original question is \"In total, how much money did Joan spend on clothing?\" The answer is Joan spent a total of $42.33 on clothing.",
+        "final_answer": "42.33",
+        "gt_answer": "X = 15 + 14.82 + 12.51",
+        "correct": true,
+        "flag": 1
+    }
+]
