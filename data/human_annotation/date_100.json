@@ -1,0 +1,737 @@
+[
+    {
+        "question": "Today is the second day of the third month of 1966. What is the date 10 days ago? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is the second day of the third month of 1966.\n#2. What is the date 10 days ago?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nToday is 03/02/1966.\n\n#5. (by #2 #4) Step 2: Calculate the date 10 days ago.\nSubtracting 10 days from 03/02/1966, we get 02/20/1966.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date 10 days ago was 02/20/1966.",
+        "final_answer": "02/20/1966",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Yesterday was April 30, 2021. What is the date tomorrow? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Yesterday was April 30, 2021.\n#2. What is the date tomorrow?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nYesterday was April 30, 2021. Therefore, today is May 1, 2021.\n\n#5. (by #2 #4) Step 2: Calculate the date tomorrow.\nTomorrow's date is May 2, 2021.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date tomorrow is 05/02/2021.",
+        "final_answer": "05/02/2021",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Today is the first day of 2007. What is the date one week from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is the first day of 2007.\n#2. What is the date one week from today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nThe first day of 2007 is 01/01/2007. Thus, today's date is 01/01/2007.\n\n#5. (by #2 #4) Step 2: Calculate the date one week from today.\nAdding 7 days to 01/01/2007, we get 01/08/2007.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date one week from today is 01/08/2007.",
+        "final_answer": "01/08/2007",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Jane is celebrating the last day of Jan 2012. What is the date today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane is celebrating the last day of Jan 2012.\n#2. What is the date today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Determine the last day of January 2012.\nThe last day of January 2012 is 01/31/2012.\n\n#5. (by #1) Step 2: Determine the year of the date.\nThe year of the date is 2012.\n\n#6. (by #2) Step 3: Determine the current month and day.\nSince we know the last day of January 2012 is being celebrated, we can assume that it is not January anymore. Therefore, the current month is February and the current day is after January 31st.\n\n#7. (by #3 #5 #6) Step 4: Write the answer in MM/DD/YYYY.\nThe date today is either 02/01/2012 or any date after that in February 2012, depending on when Jane is celebrating the last day of January.",
+        "final_answer": "01/31/2012",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Today is Christmas Eve of 1937. What is the date a month ago? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is Christmas Eve of 1937.\n#2. What is the date a month ago?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nToday is Christmas Eve of 1937, which is 12/24/1937.\n\n#5. (by #2 #4) Step 2: Calculate the date a month ago.\nTo calculate the date a month ago, we need to subtract one month from the current date. Since December has 31 days, a month ago was November 24, 1937.\nTherefore, the date a month ago is 11/24/1937.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date a month ago is 11/24/1937.",
+        "final_answer": "11/24/1937",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date yesterday? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is Apr 10, 1985.\n#2. Jane's appointment will be 3 days later.\n#3. What is the date yesterday?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1) Step 1: Calculate the date of Jane's appointment.\nJane's appointment will be 3 days later from Apr 10, 1985. Thus, her appointment will be on Apr 13, 1985.\n\n#6. (by #2) Step 2: Calculate the date yesterday.\nYesterday will be 1 day before Jane's appointment. Thus, yesterday's date is Apr 12, 1985.\n\n#7. (by #3 #4) Step 3: Write the answer in MM/DD/YYYY.\nThe date yesterday is 04/12/1985.",
+        "final_answer": "04/09/1985",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date one year ago from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. May 6, 1992 is ten years ago from today.\n#2. What is the date one year ago from today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate today's date.\nSince May 6, 1992 is ten years ago, today's date must be May 6, 2002.\n\n#5. (by #2 #4) Step 2: Calculate the date one year ago from today.\nOne year ago from May 6, 2002 is May 6, 2001.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date one year ago from today is 05/06/2001.",
+        "final_answer": "05/06/2001",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date 24 hours later? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane thinks today is 6/18/2019.\n#2. John thinks today is 6/19/2019.\n#3. John is correct.\n#4. What is the date 24 hours later?\n#5. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#6. (by #3) Step 1: Determine that John's date is correct.\nSince John is correct and thinks today is 6/19/2019, we can assume that today is indeed 6/19/2019.\n\n#7. (by #4 #6) Step 2: Calculate the date 24 hours later.\nAdding 24 hours to 6/19/2019 would give us the date 6/20/2019.\n\n#8. (by #5 #7) Step 3: Write the answer in MM/DD/YYYY.\nThe date 24 hours later is 06/20/2019.",
+        "final_answer": "06/20/2019",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Jane is celebrating the last day of Jan 2012. What is the date 24 hours later? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane is celebrating the last day of Jan 2012.\n#2. What is the date 24 hours later?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date of the last day of Jan 2012.\nThe last day of Jan 2012 is 01/31/2012.\n\n#5. (by #2 #4) Step 2: Calculate the date 24 hours later.\nAdding 24 hours to 01/31/2012 gives us 02/01/2012.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date 24 hours later is 02/01/2012.",
+        "final_answer": "02/01/2012",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Jane booked a flight for tomorrow, Jul 29, 2002. What is the date one week from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane booked a flight for tomorrow, Jul 29, 2002.\n#2. What is the date one week from today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nThe question does not give the current date, so we cannot calculate it.\n\n#5. (by #1) Step 2: Determine the date of Jane's flight.\nJane's flight is scheduled for tomorrow, Jul 29, 2002.\n\n#6. (by #2 #5) Step 3: Calculate the date one week from today.\nOne week from Jul 29, 2002, is Aug 5, 2002.\n\n#7. (by #3 #6) Step 4: Write the answer in MM/DD/YYYY.\nThe date one week from today is 08/05/2002.",
+        "final_answer": "08/04/2002",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date 10 days ago? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Yesterday is Jan 21, 2011.\n#2. Jane ate 2 pizzas and 5 wings yesterday.\n#3. What is the date 10 days ago?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1) Step 1: Calculate the date of yesterday.\nYesterday is Jan 21, 2011.\n\n#6. (by #3 #5) Step 2: Calculate the date 10 days ago.\n10 days ago from Jan 21, 2011 is Jan 11, 2011.\n\n#7. (by #4 #6) Step 3: Write the answer in MM/DD/YYYY.\nThe date 10 days ago from Jan 21, 2011 is 01/11/2011.",
+        "final_answer": "01/12/2011",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Jane is celebrating the last day of Jan 2012. What is the date today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane is celebrating the last day of Jan 2012.\n#2. What is the date today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Determine the last day of Jan 2012.\nThe last day of Jan 2012 is 01/31/2012.\n\n#5. (by #2 #4) Step 2: Calculate the number of days between the last day of Jan 2012 and today.\nWe know that the last day of Jan 2012 is 01/31/2012. To determine today's date, we need to know how many days have passed since 01/31/2012. Assuming that we are not in a leap year, February would have 28 days. As such, we add 28 days to 01/31/2012 to get 02/28/2012. Since today is some day between 02/01/2012 and 02/28/2012, we need to subtract the number of days that have passed in February so far. Since today is not a leap year, there have been 28 days in February. Thus, we subtract 28 days from 02/28/2012 to get 02/01/2012.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date today is 02/01/2012.",
+        "final_answer": "01/31/2012",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "This is the last day of 1899. What is the date tomorrow? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. This is the last day of 1899.\n#2. What is the date tomorrow?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nThe last day of 1899 is December 31, 1899.\n\n#5. (by #2 #4) Step 2: Calculate the date tomorrow.\nSince January 1, 1900, is the next day after December 31, 1899, the date tomorrow is January 1, 1900.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date tomorrow is 01/01/1900.",
+        "final_answer": "01/01/1900",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Tomorrow is 11/12/2019. What is the date 10 days ago? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Tomorrow is 11/12/2019.\n#2. What is the date 10 days ago?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nIf tomorrow is 11/12/2019, then today is 11/11/2019.\n\n#5. (by #2 #4) Step 2: Calculate the date 10 days ago.\nTo calculate the date 10 days ago, we need to subtract 10 days from today's date, which gives us 11/01/2019.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date 10 days ago is 11/01/2019.",
+        "final_answer": "11/01/2019",
+        "correct": true,
+        "flag": 0
+    },
+    {
+        "question": "The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date one year ago from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. The first day of 2019 is a Tuesday.\n#2. Today is the first Monday of 2019.\n#3. What is the date one year ago from today?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1) Step 1: Determine the day of the week for January 1, 2018.\nSince 2018 is not a leap year, there are 365 days in 2018. 365 modulo 7 is 1, so the day of the week for January 1, 2018 is one day earlier than January 1, 2019, which is a Monday. Therefore, January 1, 2018 is a Monday.\n\n#6. (by #2) Step 2: Determine the number of days between the first Monday of 2019 and January 1, 2019.\nSince January 1, 2019 is a Tuesday, there are 6 days between January 1, 2019 and the first Monday of 2019 (January 7, 2019).\n\n#7. (by #3 #6) Step 3: Subtract 1 year from January 7, 2019 to find the date one year ago.\nSubtracting 1 year from January 7, 2019 gives January 7, 2018.\n\n#8. (by #4 #7) Step 4: Write the answer in MM/DD/YYYY format.\nThe date one year ago from today is 01/07/2018.",
+        "final_answer": "01/07/2018",
+        "correct": true,
+        "flag": 0
+    },
+    {
+        "question": "Tomorrow is 11/12/2019. What is the date one week from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Tomorrow is 11/12/2019.\n#2. What is the date one week from today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nThe date of tomorrow is 11/12/2019.\nThe date of today is 11/13/2019.\n\n#5. (by #2 #4) Step 2: Calculate the date one week from today.\nAdding 7 days to 11/13/2019, we get 11/20/2019.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date one week from today is 11/20/2019.",
+        "final_answer": "11/18/2019",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Jane booked a flight for tomorrow, Jul 29, 2002. What is the date one week from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane booked a flight for tomorrow, Jul 29, 2002.\n#2. What is the date one week from today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nThe date of tomorrow is Jul 29, 2002.\nTo calculate the date today, we subtract one day from Jul 29, 2002.\nThus, the date of today is Jul 28, 2002.\n\n#5. (by #2 #4) Step 2: Calculate the date one week from today.\nTo calculate the date one week from today, we add seven days to Jul 28, 2002.\nThus, the date one week from today is Aug 4, 2002.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date one week from today is 08/04/2002.",
+        "final_answer": "08/04/2002",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "The current local time is 3:02 pm of 5/4/2004. What is the date 10 days ago? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. The current local time is 3:02 pm of 5/4/2004.\n#2. What is the date 10 days ago?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nThe current local time is 3:02 pm of 5/4/2004. Thus, today's date is 05/04/2004.\n\n#5. (by #2 #4) Step 2: Calculate the date 10 days ago.\nTo calculate the date 10 days ago, we subtract 10 from the day of today's date: 04 - 10 = -6. This means we need to go back to the previous month to find the date. Since April has 30 days, the date 10 days ago is 04/24/2004.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date 10 days ago is 04/24/2004.",
+        "final_answer": "04/24/2004",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Today, 8/3/1997, is a day that we will never forget. What is the date one week ago from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is 8/3/1997.\n#2. Today is a day that we will never forget.\n#3. What is the date one week ago from today?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1) Step 1: Calculate the date today.\nToday is 8/3/1997.\n\n#6. (by #3 #5) Step 2: Calculate the date one week ago from today.\nTo calculate one week ago from today, we subtract 7 days from today's date. Therefore, the date one week ago from today is 7/27/1997.\n\n#7. (by #4 #6) Step 3: Write the answer in MM/DD/YYYY.\nThe date one week ago from today is 07/27/1997.",
+        "final_answer": "07/27/1997",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date yesterday? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is Apr 10, 1985.\n#2. Jane's appointment will be 3 days later.\n#3. What is the date yesterday?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #2) Step 1: Calculate the date of Jane's appointment.\nJane's appointment will be 3 days later, so the date of her appointment is Apr 13, 1985.\n\n#6. (by #1 #5) Step 2: Calculate the date yesterday.\nTo calculate yesterday's date, we need to subtract 1 day from today's date, which is Apr 10, 1985. Therefore, yesterday's date is Apr 9, 1985.\n\n#7. (by #4 #6) Step 3: Write the answer in MM/DD/YYYY.\nThe date yesterday is 04/09/1985.",
+        "final_answer": "04/09/1985",
+        "correct": true,
+        "flag": 0
+    },
+    {
+        "question": "This is the last day of 1899. What is the date one week ago from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. This is the last day of 1899.\n#2. What is the date one week ago from today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date of today.\nToday is the last day of 1899, which means it is 12/31/1899.\n\n#5. (by #2 #4) Step 2: Calculate the date one week ago from today.\nOne week ago from today would be 7 days before 12/31/1899, which is 12/24/1899.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date one week ago from today is 12/24/1899.",
+        "final_answer": "12/24/1899",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "The deadline is Jun 1, 2021, which is 2 days away from now. What is the date one week from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. The deadline is Jun 1, 2021, which is 2 days away from now.\n#2. What is the date one week from today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nIf the deadline is Jun 1, 2021, which is 2 days away from now, then today's date is May 30, 2021.\n\n#5. (by #2 #4) Step 2: Calculate the date one week from today.\nOne week from today will be June 6, 2021.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date one week from today is 06/06/2021.",
+        "final_answer": "06/06/2021",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date one week ago from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. May 6, 1992 is ten years ago from today for Jane.\n#2. What is the date one week ago from today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nIf May 6, 1992 is ten years ago from today, then today is May 6, 2002.\n\n#5. (by #2 #4) Step 2: Calculate the date one week ago from today.\nOne week ago from May 6, 2002 is April 29, 2002.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date one week ago from today is 04/29/2002.",
+        "final_answer": "04/29/2002",
+        "correct": true,
+        "flag": 0
+    },
+    {
+        "question": "In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date a month ago? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is 02/01/1987 to people in the UK.\n#2. What is the date a month ago?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nToday is 02/01/1987 to people in the UK.\n\n#5. (by #2 #4) Step 2: Calculate the date a month ago.\nTo calculate the date a month ago, we need to subtract one month from the current date. February has 28 days, so one month ago would be January 1st. Therefore, the date a month ago is 01/01/1987.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date a month ago is 01/01/1987.",
+        "final_answer": "12/02/1986",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date a month ago? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane thinks today is 6/18/2019.\n#2. John thinks today is 6/19/2019.\n#3. John is correct.\n#4. What is the date a month ago?\n#5. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#6. (by #3) Step 1: Determine today's date.\nSince John is correct and thinks today is 6/19/2019, today's date is indeed 6/19/2019.\n\n#7. (by #4 #6) Step 2: Calculate the date one month ago.\nOne month ago from 6/19/2019 would be 5/19/2019.\n\n#8. (by #5 #7) Step 3: Write the answer in MM/DD/YYYY.\nThe date one month ago is 05/19/2019.",
+        "final_answer": "05/19/2019",
+        "correct": true,
+        "flag": 0
+    },
+    {
+        "question": "Today is the second day of the third month of 1966. What is the date one year ago from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is the second day of the third month of 1966.\n#2. What is the date one year ago from today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nToday is the second day of the third month of 1966. Thus, today is 03/02/1966.\n\n#5. (by #2 #4) Step 2: Calculate the date one year ago from today.\nOne year ago from today would be 03/02/1965.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date one year ago from today is 03/02/1965.",
+        "final_answer": "03/02/1965",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. On May 9th, 2017 Jane bought 40 eggs.\n#2. She ate one egg per day.\n#3. She ran out of eggs today.\n#4. What is the date today?\n#5. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#6. (by #1) Step 1: Calculate the total number of days from May 9th, 2017 to today.\nToday she ran out of eggs, which means she had 39 eggs in total.\nSince she ate one egg per day, it has been 39 days since May 9th, 2017.\n\n#7. (by #4 #6) Step 2: Calculate the date today.\nIf it has been 39 days since May 9th, 2017, we can count 39 days from that date to find today's date.\nMay 9th + 39 days = June 17th.\nTherefore, today's date is 06/17/2017.\n\n#8. (by #5 #7) Step 3: Write the answer in MM/DD/YYYY.\nThe date today is 06/17/2017.",
+        "final_answer": "06/18/2017",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane visits the bookstore on the 16th of each month.\n#2. She started visiting the bookstore from October 2009.\n#3. Today is her 5th visit to the bookstore.\n#4. What is the date today?\n#5. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#6. (by #2) Step 1: Determine the starting date of Jane's visits.\nJane started visiting the bookstore from October 2009. Thus, her first visit was on 10/16/2009.\n\n#7. (by #3 #6) Step 2: Determine the number of months that have passed since the first visit.\nToday is Jane's 5th visit to the bookstore. Since she visits on the 16th of each month, she would have visited on the 16th of October 2009, November 2009, December 2009, January 2010, and February 2010. Therefore, 5 months have passed since her first visit.\n\n#8. (by #7) Step 3: Calculate the date today.\nSince 5 months have passed since Jane's first visit on 10/16/2009, the date today can be calculated by adding 5 months to the starting date. Thus, the date today is 03/16/2010.\n\n#9. (by #5 #8) Step 4: Write the answer in MM/DD/YYYY.\nThe date today is 03/16/2010.",
+        "final_answer": "02/16/2010",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "The day before yesterday was 11/23/1933. What is the date one year ago from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. The day before yesterday was 11/23/1933.\n#2. What is the date one year ago from today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date of yesterday.\nYesterday was 11/22/1933.\n\n#5. (by #4) Step 2: Calculate the date of today.\nToday is 11/24/1933.\n\n#6. (by #2 #5) Step 3: Calculate the date one year ago from today.\nOne year ago from today is 11/24/1932.\n\n#7. (by #3 #6) Step 4: Write the answer in MM/DD/YYYY.\nThe date one year ago from today is 11/24/1932.",
+        "final_answer": "11/25/1932",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. The concert was scheduled to be on 06/01/1943.\n#2. The concert was delayed by one day to today.\n#3. What is the date today?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the original date of the concert.\nThe concert was scheduled to be on 06/01/1943.\n\n#6. (by #2) Step 2: Calculate the new date of the concert.\nThe concert was delayed by one day, so it should be on 06/02/1943.\n\n#7. (by #3 #6) Step 3: Calculate the date today.\nSince the delayed concert is today, the date today is 06/02/1943.\n\n#8. (by #4 #7) Step 4: Write the answer in MM/DD/YYYY.\nThe date today is 06/02/1943.",
+        "final_answer": "06/02/1943",
+        "correct": true,
+        "flag": 0
+    },
+    {
+        "question": "Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date one week ago from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane visits the bookstore on the 16th of each month starting from October 2009.\n#2. It is her 5th visit to the bookstore today.\n#3. What is the date one week ago from today?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Determine the current month and year of Jane's visit.\nIf it is her 5th visit to the bookstore, then she has visited in October 2009, November 2009, December 2009, January 2010, and February 2010. Therefore, the current month and year are February 2010.\n\n#6. (by #3 #5) Step 2: Calculate the date one week ago from today.\nOne week ago from February 2010 is February 16, 2010 minus 7 days, which is February 9, 2010.\n\n#7. (by #4 #6) Step 3: Write the answer in MM/DD/YYYY.\nThe date one week ago from today is 02/09/2010.",
+        "final_answer": "02/09/2010",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date one week from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane thought today is 3/11/2002.\n#2. Today is actually Mar 12, which is 1 day later.\n#3. What is the date one week from today?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the date of Jane's mistaken belief.\nJane thought today is 3/11/2002, which means her mistaken belief was on 03/11/2002.\n\n#6. (by #2) Step 2: Calculate the actual date today.\nToday is one day later than Jane's mistaken belief, so the actual date today is 03/12/2002.\n\n#7. (by #3 #6) Step 3: Calculate the date one week from today.\nThe date one week from today (03/12/2002) is 03/19/2002.\n\n#8. (by #4 #7) Step 4: Write the answer in MM/DD/YYYY.\nThe date one week from today is 03/19/2002.",
+        "final_answer": "03/19/2002",
+        "correct": true,
+        "flag": 0
+    },
+    {
+        "question": "Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date one year ago from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane was born on the last day of February in 2000.\n#2. Today is Jane's 16-year-old birthday.\n#3. What is the date one year ago from today?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the date of Jane's birthday.\nJane was born on the last day of February in 2000, which is 02/29/2000. Today is Jane's 16-year-old birthday, which is 02/29/2016.\n\n#6. (by #3 #5) Step 2: Calculate the date one year ago from today.\nTo calculate the date one year ago from today, we subtract one year from the year component of today's date. Since 2016 is a leap year, we have to subtract one day as well. Therefore, the date one year ago from today is 02/28/2015.\n\n#7. (by #4 #6) Step 3: Write the answer in MM/DD/YYYY.\nThe date one year ago from today is 02/28/2015.",
+        "final_answer": "02/28/2015",
+        "correct": true,
+        "flag": 0
+    },
+    {
+        "question": "In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date a month ago? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is 02/01/1987 in the UK date format.\n#2. The question asks for the date a month ago.\n#3. The answer should be in the MM/DD/YYYY format.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Convert the date to the standard DD/MM/YYYY format.\nIn the standard format, today's date is 01/02/1987.\n\n#5. (by #2 #4) Step 2: Calculate the date one month ago.\nOne month ago from today's date would be 01/01/1987.\n\n#6. (by #3 #5) Step 3: Convert the answer back to the UK date format.\nIn the UK date format, the date one month ago is 01/01/1987.",
+        "final_answer": "12/02/1986",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Today is 9/7. Jane is watching NFL 2003. What is the date one week ago from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is 9/7.\n#2. Jane is watching NFL 2003 today.\n#3. What is the date one week ago from today?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the date today.\nToday is 9/7 and Jane is watching NFL 2003 today. Thus, Today is 09/07/2003.\n\n#6. (by #3 #5) Step 2: Calculate the date one week ago from today.\nOne week ago from today is 08/31/2003.\n\n#7. (by #4 #6) Step 3: Write the answer in MM/DD/YYYY.\nThe date one week ago from today is 08/31/2003.",
+        "final_answer": "08/31/2003",
+        "correct": true,
+        "flag": 0
+    },
+    {
+        "question": "Today is 9/7. Jane is watching NFL 2003. What is the date 24 hours later? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is 9/7.\n#2. Jane is watching NFL 2003 today.\n#3. What is the date 24 hours later?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the date today.\nToday is 09/07/2003.\n\n#6. (by #3 #5) Step 2: Calculate the date 24 hours later.\nAdding 24 hours to 09/07/2003, we get 09/08/2003.\n\n#7. (by #4 #6) Step 3: Write the answer in MM/DD/YYYY.\nThe date 24 hours later is 09/08/2003.",
+        "final_answer": "09/08/2003",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Today is the first day of 2007. What is the date one year ago from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is the first day of 2007.\n#2. What is the date one year ago from today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nThe first day of 2007 is 01/01/2007. Thus, today's date is 01/01/2007.\n\n#5. (by #2 #4) Step 2: Calculate the date one year ago from today.\nTo calculate the date one year ago, we need to subtract 1 from the year of today's date, which gives us 2006. The date one year ago from today is 01/01/2006.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date one year ago from today is 01/01/2006.",
+        "final_answer": "01/01/2006",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date one week ago from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane visits the bookstore on the 16th of each month starting from October 2009.\n#2. It is her 5th visit to the bookstore today.\n#3. What is the date one week ago from today?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Determine the month and year of the current visit.\nJane visits the bookstore on the 16th of each month starting from October 2009, and it is her 5th visit today. Hence, the current month is February 2010, and the year is 2010.\n\n#6. (by #3 #5) Step 2: Calculate the date one week ago from today.\nOne week ago from today is February 9th, 2010.\n\n#7. (by #4 #6) Step 3: Write the answer in MM/DD/YYYY.\nThe date one week ago from today is 02/09/2010.",
+        "final_answer": "02/09/2010",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "It is 4/19/1969 today. What is the date 10 days ago? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. It is 4/19/1969 today.\n#2. What is the date 10 days ago?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date 10 days ago.\nTo calculate the date 10 days ago, we need to subtract 10 days from 4/19/1969:\n4/19/1969 - 10 days = 4/9/1969\n\n#5. (by #3 #4) Step 2: Write the answer in MM/DD/YYYY.\nThe date 10 days ago is 04/09/1969.",
+        "final_answer": "04/09/1969",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. Jane is correct. What is the date 24 hours later? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane thinks today is 6/18/2019.\n#2. John thinks today is 6/19/2019.\n#3. Jane is correct.\n#4. What is the date 24 hours later?\n#5. Write the answer in format MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#6. (by #1 #3) Step 1: Identify the correct date.\nJane is correct and thinks today is 6/18/2019. Therefore, today is 6/18/2019.\n\n#7. (by #4) Step 2: Calculate the date 24 hours later.\nAdding 24 hours to 6/18/2019 gives us 6/19/2019.\n\n#8. (by #5 #7) Step 3: Write the answer in MM/DD/YYYY.\nThe date 24 hours later is 06/19/2019.",
+        "final_answer": "06/19/2019",
+        "correct": true,
+        "flag": 0
+    },
+    {
+        "question": "On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. On May 9th, 2017, Jane bought 40 eggs.\n#2. Jane ate one egg per day.\n#3. Today she ran out of eggs.\n#4. What is the date today?\n#5. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#6. (by #1) Step 1: Calculate the number of days from May 9th, 2017 to today.\nSince Jane bought 40 eggs and ate one per day, she finished the last egg on day 40. Therefore, today is day 40 from May 9th, 2017.\n\n#7. (by #6 #4) Step 2: Calculate the date today.\nMay 9th, 2017 was day 1, so we need to add 39 days to get to day 40. Therefore, today is June 17th, 2017.\n\n#8. (by #5 #7) Step 3: Write the answer in MM/DD/YYYY.\nThe date today is 06/17/2017.",
+        "final_answer": "06/18/2017",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date a month ago? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. May 6, 1992 is ten years ago.\n#2. May 6, 1992 feels like yesterday to Jane.\n#3. What is the date a month ago?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1) Step 1: Calculate the date ten years ago.\nTen years ago from 1992 is 1982. Thus, the date ten years ago from May 6, 1992 is May 6, 1982.\n\n#6. (by #2) Step 2: Jane feels like May 6, 1992 was yesterday.\nThis statement doesn't affect our calculation, but it provides context and emotional significance to the date.\n\n#7. (by #3) Step 3: Calculate the date a month ago.\nWe know the year is 1992, but we need to determine the month and day. One month ago from May 6, 1992 would be April 6, 1992. However, we need to account for the fact that not all months have the same number of days. April has 30 days, so one month ago from May 6, 1992 is April 6, 1992.\n\n#8. (by #4 #7) Step 4: Write the answer in MM/DD/YYYY.\nThe date a month ago from May 6, 1992 is 04/06/1992.",
+        "final_answer": "04/06/2002",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Today is 9/7. Jane is watching NFL 2003. What is the date one week from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is 9/7.\n#2. Jane is watching NFL 2003 today.\n#2. What is the date one week from today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1 #2) Step 1: Calculate the date today.\nToday is 9/7 and Jane is watching NFL 2003 today. Thus, Today is 09/07/2003.\n\n#5. (by #3 #4) Step 2: Calculate the date one week from today.\nBecause 2003 is not a leap year and September in 2003 has 30 days, the date one week from today is 09/14/2003.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date one week from today is 09/14/2003.",
+        "final_answer": "09/14/2003",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date one year ago from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. The first day of 2019 is a Tuesday.\n#2. Today is the first Monday of 2019.\n#3. What is the date one year ago from today?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the date of the first Monday of 2019.\nIf the first day of 2019 is a Tuesday, then the second day of 2019 is a Wednesday, and so on. The first Monday of 2019 is January 7, 2019.\n\n#6. (by #3 #5) Step 2: Calculate the date one year ago from today.\nOne year ago from January 7, 2019 is January 7, 2018.\n\n#7. (by #4 #6) Step 3: Write the answer in MM/DD/YYYY.\nThe date one year ago from today is 01/07/2018.",
+        "final_answer": "01/07/2018",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Tomorrow is 11/12/2019. What is the date one week from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Tomorrow is 11/12/2019.\n#2. What is the date one week from today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nThe date of tomorrow is 11/12/2019.\nThe date of today is 11/13/2019.\n\n#5. (by #2 #4) Step 2: Calculate the date one week from today.\nOne week from today is 11/20/2019.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date one week from today is 11/20/2019.",
+        "final_answer": "11/18/2019",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date 24 hours later? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. May 6, 1992 is like yesterday to Jane.\n#2. That is actually ten years ago.\n#3. What is the date 24 hours later?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #2) Step 1: Calculate the current date.\nIf May 6, 1992 was ten years ago, then the current year is 2002.\n\n#6. (by #1 #5) Step 2: Calculate the date that is like yesterday to Jane in 2002.\nIf May 6, 1992 is like yesterday to Jane, then the date that is like yesterday to Jane in 2002 is May 5, 2002.\n\n#7. (by #3 #6) Step 3: Calculate the date 24 hours later.\nThe date 24 hours later than May 5, 2002 is May 6, 2002.\n\n#8. (by #4 #7) Step 4: Write the answer in MM/DD/YYYY.\nThe date 24 hours later than May 5, 2002 is 05/06/2002.",
+        "final_answer": "05/07/2002",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "The current local time is 3:02 pm of 5/4/2004. What is the date one week from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. The current local time is 3:02 pm of 5/4/2004.\n#2. What is the date one week from today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Determine the date today.\nThe current local time is 3:02 pm of 5/4/2004. Therefore, the date today is 5/4/2004.\n\n#5. (by #2 #4) Step 2: Calculate the date one week from today.\nAdding 7 days to the current date (5/4/2004) gives us the date one week from today which is 5/11/2004.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date one week from today is 05/11/2004.",
+        "final_answer": "05/11/2004",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane visits the bookstore on the 16th of each month starting from October 2009.\n#2. It is her 5th visit to the bookstore today.\n#3. What is the date today?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the month and year of the current visit.\nSince Jane visits the bookstore on the 16th of each month starting from October 2009 and it is her 5th visit, we can count back from the current month. \nThe current month is February 2010, which is the 5th month after October 2009. Therefore, the current visit is in February 2010.\n\n#6. (by #4 #5) Step 2: Write the answer in MM/DD/YYYY.\nThe date of the current visit is the 16th of February 2010. Therefore, the answer is 02/16/2010.",
+        "final_answer": "02/16/2010",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date one week from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane was born on the last day of February in 2000.\n#2. Today is her 16-year-old birthday.\n#3. What is the date one week from today?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate Jane's birth date.\nJane was born on February 29th, 2000. Since 2000 is a leap year, February has 29 days.\n\n#6. (by #2) Step 2: Calculate today's date.\nSince it is not specified in the question, we will assume today's date is the date the question is being answered. Let's say today's date is 02/28/2016.\n\n#7. (by #3 #6) Step 3: Calculate the date one week from today.\nOne week from 02/28/2016 is 03/06/2016.\n\n#8. (by #4 #7) Step 4: Write the answer in MM/DD/YYYY.\nThe date one week from today is 03/06/2016.",
+        "final_answer": "03/07/2016",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date tomorrow? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane visits the bookstore on the 16th of each month starting from October 2009.\n#2. It is her 5th visit to the bookstore today.\n#3. What is the date tomorrow?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Determine the last month Jane visited the bookstore.\nSince it is her 5th visit to the bookstore and she visits on the 16th of each month, the last month she visited was January (16th visit).\n\n#6. (by #1 #5) Step 2: Determine the next month Jane will visit the bookstore.\nThe next month Jane will visit the bookstore is February.\n\n#7. (by #3 #6) Step 3: Determine the date tomorrow.\nIf today is the 16th of February, tomorrow will be the 17th of February.\n\n#8. (by #4 #7) Step 4: Write the answer in MM/DD/YYYY.\nThe date tomorrow is 02/17/2021.",
+        "final_answer": "02/17/2010",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date tomorrow? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is 02/01/1987 according to the date formatting in the UK.\n#2. What is the date tomorrow?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nToday is 02/01/1987 according to the date formatting in the UK.\n\n#5. (by #2 #4) Step 2: Calculate the date tomorrow.\nTomorrow's date is one day after today's date. Therefore, tomorrow is 02/02/1987.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date tomorrow is 02/02/1987.",
+        "final_answer": "01/03/1987",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date one week ago from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is Apr 10, 1985.\n#2. Jane's appointment will be 3 days later.\n#3. What is the date one week ago from today?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #2) Step 1: Calculate the date of Jane's appointment.\nJane's appointment will be 3 days later from today, which means her appointment date is Apr 13, 1985.\n\n#6. (by #3 #1) Step 2: Calculate the date one week ago from today.\nTo calculate the date one week ago from Apr 10, 1985, we need to subtract 7 days, which gives us Apr 3, 1985.\n\n#7. (by #4 #6) Step 3: Write the answer in MM/DD/YYYY.\nThe date one week ago from today is 04/03/1985.",
+        "final_answer": "04/03/1985",
+        "correct": true,
+        "flag": 0
+    },
+    {
+        "question": "Yesterday was April 30, 2021. What is the date 10 days ago? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Yesterday was April 30, 2021.\n#2. What is the date 10 days ago?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date of 10 days after yesterday.\nThe date of yesterday is April 30, 2021.\n10 days after April 30, 2021 is May 10, 2021.\n\n#5. (by #3 #4) Step 2: Write the answer in MM/DD/YYYY.\nThe date 10 days ago was April 20, 2021, which can be written as 04/20/2021.",
+        "final_answer": "04/21/2021",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date 24 hours later? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane visits the bookstore on the 16th of each month starting from October 2009.\n#2. It is her 5th visit to the bookstore today.\n#3. What is the date 24 hours later?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the date of Jane's current visit.\nJane visits the bookstore on the 16th of each month starting from October 2009. It is her 5th visit to the bookstore today. Thus, the current date is February 16th, 2010.\n\n#6. (by #3 #5) Step 2: Calculate the date 24 hours later.\nAdding 24 hours to February 16th, 2010, we get February 17th, 2010.\n\n#7. (by #4 #6) Step 3: Write the answer in MM/DD/YYYY.\nThe date 24 hours later is 02/17/2010.",
+        "final_answer": "02/17/2010",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Jane is celebrating the last day of Jan 2012. What is the date 24 hours later? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane is celebrating the last day of Jan 2012.\n#2. What is the date 24 hours later?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date.\nThe last day of January 2012 is 01/31/2012.\nAdding 24 hours to 01/31/2012, we get 02/01/2012.\n\n#5. (by #3 #4) Step 2: Write the answer in MM/DD/YYYY.\nThe date 24 hours later than the last day of January 2012 is 02/01/2012.",
+        "final_answer": "02/01/2012",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924. What is the date a month ago? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924.\n#2. What is the date a month ago?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date of tomorrow's meeting.\nThe meeting is rescheduled to 10/16/1924.\n\n#5. (by #4) Step 2: Calculate the date a month ago.\nTo calculate a month ago, we can subtract 1 from the month and adjust the year if necessary. In this case, since the month is October, we need to subtract 1 from the month and adjust the year to 1924 if necessary. Thus, the date a month ago is 09/16/1924.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date a month ago is 09/16/1924.",
+        "final_answer": "09/15/1924",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Today is Sep 9, 1909. What is the date tomorrow? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is Sep 9, 1909.\n#2. What is the date tomorrow?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nToday is Sep 9, 1909.\n\n#5. (by #2 #4) Step 2: Calculate the date tomorrow.\nTomorrow is simply the next day after today. Therefore, the date tomorrow is Sep 10, 1909.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date tomorrow is 09/10/1909.",
+        "final_answer": "09/10/1909",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date tomorrow? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is 02/01/1987 in the UK format.\n#2. What is the date tomorrow?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today in the standard format.\nThe date of today in the standard format is 01/02/1987.\n\n#5. (by #2 #4) Step 2: Calculate the date tomorrow.\nTomorrow is one day after today. Therefore, the date tomorrow in the standard format is 02/02/1987.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date tomorrow in the UK format is 02/02/1987.",
+        "final_answer": "01/03/1987",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Jane is celebrating the last day of Jan 2012. What is the date today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane is celebrating the last day of Jan 2012.\n#2. What is the date today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Determine the last day of January 2012.\nThe last day of January 2012 is 01/31/2012.\n\n#5. (by #2 #4) Step 2: Calculate the date today.\nSince Jane is celebrating the last day of January, we can assume that today is also in January. Therefore, the date today is any day between 01/01/2012 and 01/31/2012.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe answer cannot be determined, as there is not enough information given to pinpoint the exact date in January 2012.",
+        "final_answer": "01/31/2012",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane and John married on Jan 2, 1958.\n#2. Today is their golden wedding anniversary.\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1 #2) Step 1: Calculate the date of their golden wedding anniversary.\nTheir golden wedding anniversary is 50 years after their wedding date, which would be Jan 2, 2008.\n\n#5. (by #3 #4) Step 2: Write the answer in MM/DD/YYYY.\nThe date of their golden wedding anniversary is 01/02/2008.",
+        "final_answer": "01/02/2008",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date yesterday? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings.\n#2. What is the date yesterday?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Identify the date.\nThe date mentioned in the question is Jan 21, 2011.\n\n#5. (by #2 #4) Step 2: Calculate the date of yesterday.\nYesterday's date is the day before Jan 21, 2011, which is Jan 20, 2011.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date yesterday was 01/20/2011.",
+        "final_answer": "01/21/2011",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "The day before yesterday was 11/23/1933. What is the date yesterday? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. The day before yesterday was 11/23/1933.\n#2. What is the date yesterday?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date of yesterday.\nIf the day before yesterday was 11/23/1933, then yesterday was 11/24/1933.\n\n#5. (by #3 #4) Step 2: Write the answer in MM/DD/YYYY.\nThe date yesterday was 11/24/1933.",
+        "final_answer": "11/24/1933",
+        "correct": true,
+        "flag": 0
+    },
+    {
+        "question": "Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date a month ago? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane visits the bookstore on the 16th of each month starting from October 2009.\n#2. It is her 5th visit to the bookstore today.\n#3. What is the date a month ago?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the date of the current visit.\nJane started visiting the bookstore on the 16th of October 2009, and it is her 5th visit today. Therefore, the current date is 02/16/2010.\n\n#6. (by #3 #5) Step 2: Calculate the date a month ago.\nTo calculate the date a month ago, we need to subtract one month from the current date. Since February 2010 has only 28 days, one month ago is January 16th, 2010. \n\n#7. (by #4 #6) Step 3: Write the answer in MM/DD/YYYY.\nThe date a month ago is 01/16/2010.",
+        "final_answer": "01/16/2010",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Today, 8/3/1997, is a day that we will never forget. What is the date 24 hours later? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is 8/3/1997.\n#2. Today is a day that we will never forget.\n#3. What is the date 24 hours later?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1) Step 1: Calculate the date 24 hours later.\nAdding 24 hours to 8/3/1997, we get 8/4/1997.\n\n#6. (by #4 #5) Step 2: Write the answer in MM/DD/YYYY.\nThe date 24 hours later is 08/04/1997.",
+        "final_answer": "08/04/1997",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Today is the second day of the third month of 1966. What is the date yesterday? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is the second day of the third month of 1966.\n#2. What is the date yesterday?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nToday is the second day of the third month of 1966. Thus, Today is 03/02/1966.\n\n#5. (by #2 #4) Step 2: Calculate the date yesterday.\nTo calculate yesterday's date, we need to subtract one day from today's date. Thus, the date yesterday was 03/01/1966.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date yesterday was 03/01/1966.",
+        "final_answer": "03/01/1966",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "The current local time is 3:02 pm of 5/4/2004. What is the date 24 hours later? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. The current local time is 3:02 pm of 5/4/2004.\n#2. What is the date 24 hours later?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nThe current local time is 3:02 pm of 5/4/2004. Therefore, the date today is 05/04/2004.\n\n#5. (by #2 #4) Step 2: Calculate the date 24 hours later.\nAdding 24 hours to 05/04/2004, we get the next day's date: 05/05/2004.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date 24 hours later is 05/05/2004.",
+        "final_answer": "05/05/2004",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Tomorrow is 11/12/2019. What is the date one week from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Tomorrow is 11/12/2019.\n#2. What is the date one week from today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nThe date of Tomorrow is 11/12/2019.\nThe date of today is 11/13/2019.\n\n#5. (by #2 #4) Step 2: Calculate the date one week from today.\nAdding seven days to 11/13/2019, we get 11/20/2019.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date one week from today is 11/20/2019.",
+        "final_answer": "11/18/2019",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "The current local time is 3:02 pm of 5/4/2004. What is the date yesterday? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. The current local time is 3:02 pm of 5/4/2004.\n#2. What is the date yesterday?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Determine the current date.\nThe current local time is 3:02 pm of 5/4/2004. Thus, the current date is 05/04/2004.\n\n#5. (by #2 #4) Step 2: Calculate the date yesterday.\nYesterday's date is one day before the current date. Therefore, the date yesterday is 05/03/2004.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date yesterday is 05/03/2004.",
+        "final_answer": "05/03/2004",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Tomorrow is 11/12/2019. What is the date one week from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Tomorrow is 11/12/2019.\n#2. What is the date one week from today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nThe date of tomorrow is 11/12/2019.\nThe date of today is 11/13/2019.\n\n#5. (by #2 #4) Step 2: Calculate the date one week from today.\nThe date one week from today is 11/20/2019.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date one week from today is 11/20/2019.",
+        "final_answer": "11/18/2019",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Today is the last day of the first quarter of 2008. What is the date one year ago from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is the last day of the first quarter of 2008.\n#2. What is the date one year ago from today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nThe last day of the first quarter of 2008 is March 31, 2008.\n\n#5. (by #2 #4) Step 2: Calculate the date one year ago from today.\nOne year ago from March 31, 2008 is March 31, 2007.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date one year ago from today is 03/31/2007.",
+        "final_answer": "03/31/2007",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Tomorrow is 11/12/2019. What is the date one week ago from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Tomorrow is 11/12/2019.\n#2. What is the date one week ago from today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nIf tomorrow is 11/12/2019, then today is 11/11/2019.\n\n#5. (by #2 #4) Step 2: Calculate the date one week ago from today.\nOne week ago from 11/11/2019 is 11/04/2019.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date one week ago from today is 11/04/2019.",
+        "final_answer": "11/04/2019",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "The deadline is Jun 1, 2021, which is 2 days away from now. What is the date a month ago? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. The deadline is Jun 1, 2021.\n#2. The deadline is 2 days away from now.\n#3. What is the date a month ago?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the current date.\nThe deadline is 2 days away from now, so the current date is May 30, 2021.\n\n#6. (by #3 #5) Step 2: Calculate the date a month ago.\nTo calculate the date a month ago, we need to subtract 1 month from the current date. Since May has 31 days, the date a month ago is April 30, 2021.\n\n#7. (by #4 #6) Step 3: Write the answer in MM/DD/YYYY.\nThe date a month ago is 04/30/2021.",
+        "final_answer": "04/30/2021",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date one year ago from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is 02/01/1987 in the UK date format.\n#2. What is the date one year ago from today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Convert the UK date format to the standard format (MM/DD/YYYY).\nToday is 02/01/1987 in the UK date format. To convert it to the standard format, we switch the day and month values to get 01/02/1987.\n\n#5. (by #2 #4) Step 2: Calculate the date one year ago from today.\nTo calculate the date one year ago from today, we subtract 1 from the year value and get 01/02/1986.\n\n#6. (by #3 #5) Step 3: Convert the standard format back to the UK date format.\nTo convert the standard format back to the UK date format, we switch the day and month values again and get 02/01/1986.\n\n#7. (by #3 #5 #6) Step 4: Write the answer in MM/DD/YYYY.\nThe date one year ago from today in the UK date format is 02/01/1986.",
+        "final_answer": "01/02/1986",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date one week ago from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is the palindrome day of 2020.\n#2. The MMDDYYYY format of the date is the same backwards as forwards.\n#3. What is the date one week ago from today?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Determine the date of today.\nThe palindrome day of 2020 is 02/02/2020, which is today's date.\n\n#6. (by #3 #5) Step 2: Calculate the date one week ago from today.\nOne week ago from today's date of 02/02/2020 is 01/26/2020.\n\n#7. (by #4 #6) Step 3: Write the answer in MM/DD/YYYY.\nThe date one week ago from today is 01/26/2020.",
+        "final_answer": "01/26/2020",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "This is the last day of 1899. What is the date one week ago from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. This is the last day of 1899.\n#2. What is the date one week ago from today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nSince the question only mentions that this is the last day of 1899, we don't have enough information to calculate the date of today. We can assume that today is 12/31/1899.\n\n#5. (by #2 #4) Step 2: Calculate the date one week ago from today.\nOne week ago from 12/31/1899 would be 12/24/1899.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date one week ago from today is 12/24/1899.",
+        "final_answer": "12/24/1899",
+        "correct": true,
+        "flag": 0
+    },
+    {
+        "question": "In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date tomorrow? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is 02/01/1987 in the UK format.\n#2. What is the date tomorrow?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today in the standard format.\nThe UK format for today is DD/MM/YYYY, which means that in the standard format, the date today is 01/02/1987.\n\n#5. (by #2 #4) Step 2: Calculate the date tomorrow.\nTomorrow is one day after today, so the date tomorrow in the standard format is 02/02/1987.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nConverting the date tomorrow in the standard format back to the UK format, we get the answer 02/02/1987.",
+        "final_answer": "01/03/1987",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date one year ago from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. May 6, 1992 is ten years ago from today.\n#2. Jane feels like May 6, 1992 is like yesterday.\n#3. What is the date one year ago from today?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1) Step 1: Calculate the date of May 6, 1992.\nIf May 6, 1992 is ten years ago from today, then today's date is May 6, 2002. \n\n#6. (by #2 #5) Step 2: Jane feels like May 6, 1992 is like yesterday.\nThis means that Jane is remembering May 6, 2001 as if it was yesterday.\n\n#7. (by #3 #6) Step 3: Calculate the date one year ago from today.\nIf Jane is remembering May 6, 2001 as if it was yesterday, then one year ago from today would be May 6, 2001.\n\n#8. (by #4 #7) Step 4: Write the answer in MM/DD/YYYY.\nThe date one year ago from today is 05/06/2001.",
+        "final_answer": "05/06/2001",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924. What is the date a month ago? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924.\n#2. What is the date a month ago?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date of tomorrow.\nTomorrow is 10/16/1924.\n\n#5. (by #4) Step 2: Calculate the date a month ago.\nTo calculate the date a month ago, we need to subtract one month from tomorrow's date. Since September has 30 days in 1924, one month ago from tomorrow would be 09/16/1924.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date a month ago is 09/16/1924.",
+        "final_answer": "09/15/1924",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date yesterday? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is 02/01/1987 in the UK format.\n#2. What is the date yesterday?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Convert the UK format to the standard format.\nTo convert the UK format to the standard format, we need to swap the positions of the day and month. Today is 01/02/1987 in the standard format.\n\n#5. (by #2 #4) Step 2: Calculate the date yesterday.\nThe date of yesterday is one day before today, which is 01/31/1987.\n\n#6. (by #3 #5) Step 3: Convert the standard format back to the UK format.\nTo convert the standard format back to the UK format, we need to swap the positions of the day and month again. Therefore, the date yesterday in the UK format is 31/01/1987.\n\n#7. (by #3 #5 #6) Step 4: Write the answer in MM/DD/YYYY.\nThe date yesterday is 01/31/1987.",
+        "final_answer": "01/01/1987",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date tomorrow? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is 02/01/1987 in the UK.\n#2. What is the date tomorrow?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nToday is 02/01/1987 in the UK.\n\n#5. (by #2 #4) Step 2: Calculate the date tomorrow.\nTomorrow's date is simply the next day after today, so it is 02/02/1987.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date tomorrow is 02/02/1987.",
+        "final_answer": "01/03/1987",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date yesterday? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is Apr 10, 1985.\n#2. Jane's appointment will be 3 days later.\n#3. What is the date yesterday?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1) Step 1: Calculate the date of Jane's appointment.\nJane's appointment will be 3 days later than today, so the date of her appointment is Apr 13, 1985.\n\n#6. (by #2 #5) Step 2: Calculate the date yesterday.\nTo find the date yesterday, we need to subtract 1 day from the date of Jane's appointment. Therefore, the date yesterday is Apr 12, 1985.\n\n#7. (by #3 #6) Step 3: Write the answer in MM/DD/YYYY.\nThe date yesterday is 04/12/1985.",
+        "final_answer": "04/09/1985",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Yesterday was April 30, 2021. What is the date 10 days ago? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Yesterday was April 30, 2021.\n#2. What is the date 10 days ago?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nYesterday was April 30, 2021, so today is May 1, 2021.\n\n#5. (by #2 #4) Step 2: Calculate the date 10 days ago.\nTo calculate the date 10 days ago, we need to subtract 10 days from today's date. Therefore, the date 10 days ago was April 21, 2021.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date 10 days ago was 04/21/2021.",
+        "final_answer": "04/21/2021",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date one year ago from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane was born on the last day of February in 2000.\n#2. Today is her 16-year-old birthday.\n#3. What is the date one year ago from today?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the date of Jane's birthday.\nJane was born on the last day of February in 2000, which is 02/29/2000. Her 16-year-old birthday is on 02/29/2016.\n\n#6. (by #3 #5) Step 2: Calculate the date one year ago from today.\nOne year ago from 02/29/2016 is 02/29/2015. However, 2015 is not a leap year, so February only has 28 days. Therefore, the date one year ago from today is 02/28/2015.\n\n#7. (by #4 #6) Step 3: Write the answer in MM/DD/YYYY.\nThe date one year ago from today is 02/28/2015.",
+        "final_answer": "02/28/2015",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Tomorrow is 11/12/2019. What is the date one week ago from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Tomorrow is 11/12/2019.\n#2. What is the date one week ago from today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nIf tomorrow is 11/12/2019, then today is 11/11/2019.\n\n#5. (by #2 #4) Step 2: Calculate the date one week ago from today.\nOne week ago from today would be 11/04/2019.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date one week ago from today is 11/04/2019.",
+        "final_answer": "11/04/2019",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date one week from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane thinks today is 6/18/2019.\n#2. John thinks today is 6/19/2019.\n#3. John is correct.\n#4. What is the date one week from today?\n#5. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#6. (by #3) Step 1: Determine the actual date today.\nJohn is correct, so today is 6/19/2019.\n\n#7. (by #4 #6) Step 2: Calculate the date one week from today.\nOne week from today is 6/26/2019.\n\n#8. (by #5 #7) Step 3: Write the answer in MM/DD/YYYY.\nThe date one week from today is 06/26/2019.",
+        "final_answer": "06/26/2019",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date yesterday? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. May 6, 1992 is like yesterday to Jane.\n#2. May 6, 1992 is actually ten years ago.\n#3. What is the date yesterday?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #2) Step 1: Calculate the date ten years after May 6, 1992.\nTo calculate the date ten years after May 6, 1992, we add 10 years to the year: May 6, 2002.\n\n#6. (by #1) Step 2: Calculate the date today.\nIf May 6, 1992 is like yesterday to Jane, then today's date is 05/07/2002.\n\n#7. (by #3 #6) Step 3: Calculate the date yesterday.\nYesterday's date is one day before today's date, so it is 05/06/2002.\n\n#8. (by #4 #7) Step 4: Write the answer in MM/DD/YYYY.\nThe date yesterday is 05/06/2002.",
+        "final_answer": "05/05/2002",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Today is Sep 9, 1909. What is the date one week from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is Sep 9, 1909.\n#2. What is the date one week from today?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nToday is Sep 9, 1909.\n\n#5. (by #2 #4) Step 2: Calculate the date one week from today.\nBecause 1909 is not a leap year and September in 1909 has 30 days, the date one week from today is Sep 16, 1909.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date one week from today is 09/16/1909.",
+        "final_answer": "09/16/1909",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane was born on the last day of February in 2000.\n#2. Today is her 16-year-old birthday.\n#3. What is the date today?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the birthdate of Jane.\nJane was born on the last day of February in 2000, which is 02/29/2000.\n\n#6. (by #2) Step 2: Calculate the age of Jane today.\nToday is Jane's 16th birthday, which means she was born in 2000 and it is now the year 2016. Her birthday is on February 29, but since 2000 was a leap year, we need to add an extra day to account for the leap year. Therefore, her birthday is on February 29, 2000 + 16 years + 1 day = March 1, 2016.\n\n#7. (by #4 #6) Step 3: Write the answer in MM/DD/YYYY.\nThe date today is 03/01/2016.",
+        "final_answer": "02/29/2016",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Today is the first day of 2007. What is the date tomorrow? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is the first day of 2007.\n#2. What is the date tomorrow?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nThe first day of 2007 is 01/01/2007.\n\n#5. (by #2 #4) Step 2: Calculate the date tomorrow.\nTomorrow is the second day of the year. Thus, the date tomorrow is 01/02/2007.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date tomorrow is 01/02/2007.",
+        "final_answer": "01/02/2007",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Today is Sep 9, 1909. What is the date tomorrow? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is Sep 9, 1909.\n#2. What is the date tomorrow?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date today.\nThe date of today is Sep 9, 1909.\n\n#5. (by #2 #4) Step 2: Calculate the date tomorrow.\nThe date tomorrow is Sep 10, 1909.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date tomorrow is 09/10/1909.",
+        "final_answer": "09/10/1909",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date a month ago? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane and John married on Jan 2, 1958.\n#2. Today is their golden wedding anniversary.\n#3. What is the date a month ago?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #2) Step 1: Calculate the date today.\nTheir golden wedding anniversary is 50 years after their marriage, so their anniversary is on Jan 2, 2008.\n\n#6. (by #3 #5) Step 2: Calculate the date a month ago.\nOne month ago from January 2, 2008 is December 2, 2007.\n\n#7. (by #4 #6) Step 3: Write the answer in MM/DD/YYYY.\nThe date a month ago is 12/02/2007.",
+        "final_answer": "12/02/2007",
+        "correct": true,
+        "flag": 0
+    },
+    {
+        "question": "Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date a month ago? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is a palindrome day of 2020.\n#2. The MMDDYYYY format of the date today is the same backwards as forwards.\n#3. What is the date a month ago?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the date today.\nToday is a palindrome day of 2020, which means the date is 02/02/2020.\n\n#6. (by #3) Step 2: Calculate the date a month ago.\nSince February only has 28 or 29 days depending on whether it's a leap year or not, we need to subtract 1 month and then adjust the day accordingly. Thus, the date a month ago is 01/02/2020.\n\n#7. (by #4 #6) Step 3: Write the answer in MM/DD/YYYY.\nThe date a month ago is 01/02/2020.",
+        "final_answer": "01/02/2020",
+        "correct": true,
+        "flag": 0
+    },
+    {
+        "question": "In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date a month ago? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is 02/01/1987 in the UK date format.\n#2. People usually put the day before the month in the UK date format.\n#3. What is the date a month ago?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #2 #1) Step 1: Convert the date to the standard format of MM/DD/YYYY.\nAs per the UK date format, today is 02/01/1987. Converting it to the standard format, it becomes 01/02/1987.\n\n#6. (by #3) Step 2: Calculate the date a month ago.\nTo calculate the date a month ago, we need to subtract 1 month from the given date. Therefore, the date a month ago is 01/01/1987.\n\n#7. (by #4 #6) Step 3: Write the answer in MM/DD/YYYY.\nThe date a month ago is 01/01/1987.",
+        "final_answer": "12/02/1986",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date one year ago from today? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Yesterday was 12/31/1929.\n#2. Today is not 12/32/1929 because December has only 31 days.\n#3. What is the date one year ago from today?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1) Step 1: Calculate the date of yesterday.\nYesterday was 12/31/1929.\n\n#6. (by #2) Step 2: Calculate the date of today.\nToday is either 12/31/1929 or a later date in the future.\n\n#7. (by #3 #6) Step 3: Calculate the date one year ago from today.\nIf today's date is 12/31/1929, then one year ago from today would be 12/31/1928. If today's date is a later date in the future, we would subtract 1 year from that date.\n\n#8. (by #4 #7) Step 4: Write the answer in MM/DD/YYYY.\nThe date one year ago from today is either 12/31/1928 (if today is 12/31/1929) or a date in the past that is one year earlier than today (if today is a later date).",
+        "final_answer": "01/01/1929",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Yesterday was April 30, 2021. What is the date yesterday? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Yesterday was April 30, 2021.\n#2. What is the date yesterday?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date of yesterday.\nYesterday was April 30, 2021.\n\n#5. (by #3 #4) Step 2: Write the answer in MM/DD/YYYY.\nThe date yesterday was 04/30/2021.",
+        "final_answer": "04/30/2021",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Today, 8/3/1997, is a day that we will never forget. What is the date 24 hours later? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is 8/3/1997.\n#2. Today is a day that we will never forget.\n#3. What is the date 24 hours later?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1) Step 1: Calculate the date and time 24 hours later.\nAdding 24 hours to 8/3/1997, we get 8/4/1997.\n\n#6. (by #4 #5) Step 2: Write the answer in MM/DD/YYYY.\nThe date 24 hours later is 08/04/1997.",
+        "final_answer": "08/04/1997",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "Today is the first day of 2007. What is the date 10 days ago? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Today is the first day of 2007.\n#2. What is the date 10 days ago?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the date of 10 days after the first day of 2007.\nTo calculate the date 10 days before today, we need to add 10 days to the first day of 2007. January has 31 days, so the 10th day of the month is January 10th. Therefore, the date 10 days after the first day of 2007 is 01/10/2007.\n\n#5. (by #2 #4) Step 2: Calculate the date 10 days before today.\nTo calculate the date 10 days before today, we need to subtract 10 days from the first day of 2007. Therefore, the date 10 days before the first day of 2007 is 12/22/2006.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date 10 days ago from the first day of 2007 is 12/22/2006.",
+        "final_answer": "12/22/2006",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "The deadline is Jun 1, 2021, which is 2 days away from now. What is the date tomorrow? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. The deadline is Jun 1, 2021, which is 2 days away from now.\n#2. What is the date tomorrow?\n#3. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#4. (by #1) Step 1: Calculate the current date.\nIf the deadline is 2 days away from now, then today's date must be May 30, 2021. \n\n#5. (by #2 #4) Step 2: Calculate the date tomorrow.\nThe date tomorrow will be May 31, 2021.\n\n#6. (by #3 #5) Step 3: Write the answer in MM/DD/YYYY.\nThe date tomorrow is 05/31/2021.",
+        "final_answer": "05/31/2021",
+        "correct": true,
+        "flag": 1
+    },
+    {
+        "question": "May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date a month ago? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. May 6, 1992 is ten years ago for Jane.\n#2. Jane feels like it was yesterday.\n#3. What is the date a month ago?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1) Step 1: Calculate the date ten years ago from May 6, 1992.\n10 years ago from May 6, 1992 is May 6, 1982.\n\n#6. (by #2) Step 2: Determine that Jane feels like May 6, 1982 was yesterday.\nThis statement does not provide any additional information to answer the question.\n\n#7. (by #3) Step 3: Calculate the date one month before May 6, 1992.\nOne month before May 6, 1992 is April 6, 1992.\n\n#8. (by #4 #7) Step 4: Write the answer in MM/DD/YYYY.\nThe date a month ago from May 6, 1992 is 04/06/1992.",
+        "final_answer": "04/06/2002",
+        "correct": false,
+        "verify_correct": false,
+        "flag": 0
+    },
+    {
+        "question": "Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date yesterday? Please answer in format MM/DD/YYYY.",
+        "answer": "First, let's write down all the statements and relationships in the question with labels.\n#1. Jane visits the bookstore on the 16th of each month starting from October 2009.\n#2. It is her 5th visit to the bookstore today.\n#3. What is the date yesterday?\n#4. Write the answer in MM/DD/YYYY.\n\nNext, let's answer the question step by step with reference to the question and reasoning process:\n\n#5. (by #1 #2) Step 1: Calculate the date of Jane's last visit.\nSince Jane visits the bookstore on the 16th of each month starting from October 2009, her last visit must have been on 02/16/2010 (since she has visited 5 times).\n\n#6. (by #3 #5) Step 2: Calculate the date of yesterday.\nYesterday would be the day before 02/16/2010, which is 02/15/2010.\n\n#7. (by #4 #6) Step 3: Write the answer in MM/DD/YYYY.\nThe date yesterday was 02/15/2010.",
+        "final_answer": "02/15/2010",
+        "correct": true,
+        "flag": 1
+    }
+]
