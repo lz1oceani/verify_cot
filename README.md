@@ -1,6 +1,6 @@
 # Deductive Verification of Chain-of-Thought Reasoning
 
-This repo contains the code, prompts, and model outputs for [Deductive Verification of Chain-of-Thought Reasoning]()
+This repo contains the code, prompts, and model outputs for [Deductive Verification of Chain-of-Thought Reasoning](https://arxiv.org/pdf/2306.03872.pdf)
 
 Chain-of-Thought prompting in Large Language Models (LLMs) emphasizes intermediate reasoning steps, which can inadvertantly introduce hallucinations and accumulated errors when solving complex tasks. To address this issue, we propose **Natural Program**,  a verifiable format achieved by decomposition of complex reasoning chains into step-by-step subprocesses that focus on necessary contexts and premises. As a result, with **Natural Program** and verification, we significantly enhance the rigor, reliability, and interpretability of reasoning steps and answers.
 
@@ -97,7 +97,14 @@ There is also an argument ``--ref-end``, which assumes that the input Natural Pr
 Please cite our paper if you find our idea helpful. Thanks a lot!
 
 ```
-TBD
+@misc{ling2023deductive,
+      title={Deductive Verification of Chain-of-Thought Reasoning}, 
+      author={Zhan Ling and Yunhao Fang and Xuanlin Li and Zhiao Huang and Mingu Lee and Roland Memisevic and Hao Su},
+      year={2023},
+      eprint={2306.03872},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
 ## License
