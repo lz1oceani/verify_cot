@@ -81,13 +81,13 @@ There is also an argument ``--ref-end``, which assumes that the input Natural Pr
 ```javascript
 {
   "verify_results", // a list of length(sample_idx_need_verify);
-                       each entry of which is a list of length(n_reasoning_steps) that contains raw verification outputs for each reasoning step of the current reasoning chain;
-                       each entry of which is a dict {'verify_model_inputs': n verification inputs for current step, 'verify_model_outputs': n validity outputs for current step};
-                       here we sample ``n=3`` validity prediction results for each reasoning step following the Uniformity phase of our Uniformity-Plurality voting strategy
+                    // each entry of which is a list of length(n_reasoning_steps) that contains raw verification outputs for each reasoning step of the current reasoning chain;
+                    // each entry of which is a dict {'verify_model_inputs': n verification inputs for current step, 'verify_model_outputs': n validity outputs for current step};
+                    // here we sample ``n=3`` validity prediction results for each reasoning step following the Uniformity phase of our Uniformity-Plurality voting strategy
   "verify_correct", // a list of length(sample_idx_need_verify), the final verification result of each reasoning chain
   "verify_result", // a list of length(sample_idx_need_verify);
-                       each entry of which is a list of length(n_reasoning_steps) that contains extracted verification results for each reasoning step of the current reasoning chain;
-                       each entry of which is a list of length (n=3) that contains the final extracted verification result from each validation prediction candidate of the current reasoning step
+                   // each entry of which is a list of length(n_reasoning_steps) that contains extracted verification results for each reasoning step of the current reasoning chain;
+                   // each entry of which is a list of length (n=3) that contains the final extracted verification result from each validation prediction candidate of the current reasoning step
 }
 ```
 
