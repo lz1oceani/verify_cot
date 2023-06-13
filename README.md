@@ -97,13 +97,11 @@ There is also an argument ``--ref-end``, which assumes that the input Natural Pr
 Please cite our paper if you find our idea helpful. Thanks a lot!
 
 ```
-@misc{ling2023deductive,
-      title={Deductive Verification of Chain-of-Thought Reasoning}, 
-      author={Zhan Ling and Yunhao Fang and Xuanlin Li and Zhiao Huang and Mingu Lee and Roland Memisevic and Hao Su},
-      year={2023},
-      eprint={2306.03872},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@article{ling2023deductive,
+  title={Deductive Verification of Chain-of-Thought Reasoning},
+  author={Ling, Zhan and Fang, Yunhao and Li, Xuanlin and Huang, Zhiao and Lee, Mingu and Memisevic, Roland and Su, Hao},
+  journal={arXiv preprint arXiv:2306.03872},
+  year={2023}
 }
 ```
 
