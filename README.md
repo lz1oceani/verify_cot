@@ -1,6 +1,6 @@
-# Deductive Verification of Chain-of-Thought Reasoning
+# Deductive Verification of Chain-of-Thought Reasoning [NeurIPS 2023]
 
-This repo contains the code, prompts, and model outputs for [Deductive Verification of Chain-of-Thought Reasoning](https://arxiv.org/pdf/2306.03872.pdf)
+This repo contains the code, prompts, and model outputs for [Deductive Verification of Chain-of-Thought Reasoning (NeurIPS 2023)](https://arxiv.org/pdf/2306.03872.pdf)
 
 Chain-of-Thought prompting in Large Language Models (LLMs) emphasizes intermediate reasoning steps, which can inadvertantly introduce hallucinations and accumulated errors when solving complex tasks. To address this issue, we propose **Natural Program**, which harnesses the power of natural language and encourages LLMs to engage in explicit and rigorous deductive logical reasoning processes to solve tasks, just like humans do. By adopting Natural Program, we empower LLMs to perform effective self-verification of deductive reasoning processes. This is achieved through the decomposition of complex reasoning chains into step-by-step subprocesses that focus on necessary contexts and premises. As a result, we significantly enhance the rigor, reliability, and interpretability of reasoning steps and answers.
 
