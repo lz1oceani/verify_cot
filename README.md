@@ -107,4 +107,4 @@ Please cite our paper if you find our idea helpful. Thanks a lot!
 
 ## License
 
-This project is licensed under the CC-BY-2.0 License.
+This project is licensed under the CC-BY-4.0 License.
